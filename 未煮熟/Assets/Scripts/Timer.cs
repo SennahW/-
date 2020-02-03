@@ -8,14 +8,16 @@ using TMPro;
 public class Timer : MonoBehaviour
 {
     public TextMeshProUGUI myTimeText;
+    public Animator myAnimator;
     TimeSpan myTimeLeft;
     bool myTimerActive;
     float myElapsedTime;
     float myTimerLength = 120;
+    float myElapsedTimeFloat;
 
     void Awake()
     {
-
+        
     }
 
     // Start is called before the first frame update
@@ -43,6 +45,7 @@ public class Timer : MonoBehaviour
         {
             myElapsedTime += Time.deltaTime;
             myTimeLeft = TimeSpan.FromSeconds(myTimerLength - myElapsedTime);
+            myElapsedTimeFloat = myTimerLength - myElapsedTime;
         }
 
         if (myElapsedTime >= myTimerLength)
@@ -50,19 +53,20 @@ public class Timer : MonoBehaviour
             myTimerActive = false;
         }
 
-        if (myElapsedTime == 55)
+        if (myElapsedTimeFloat < 110f && myElapsedTimeFloat > 108f)
         {
-            TimerAnimation();
+            TimerAnimation(1);
         }
-
         string tempTimeString = "Time: " + myTimeLeft.ToString("mm' : 'ss'.'ff");
         myTimeText.text = tempTimeString;
     }
 
-    void TimerAnimation()
+    void TimerAnimation(float aAnimationID)
     {
-        myTimeText.fontSize = 35;
-
+        if (aAnimationID == 1)
+        {
+            myAnimator.SetTrigger("DoPop");
+            Handheld.Vibrate();
+        }
     }
-
 }
