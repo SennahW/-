@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
-{
+{ 
     public static GameObject myItemBegingDragged;
     Vector3 myStartPosition;
     Transform myStartParent;
