@@ -135,8 +135,8 @@ GameObject:
   - component: {fileID: 68242243}
   - component: {fileID: 68242242}
   m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
+  m_Name: Egg
+  m_TagString: Egg
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -899,7 +899,7 @@ GameObject:
   - component: {fileID: 786204591}
   - component: {fileID: 786204590}
   m_Layer: 5
-  m_Name: GreenOnion
+  m_Name: PantrySlotOne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -937,6 +937,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdfb72f80bf62c54184600832c13111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myWantedItemTag: 
+  myWantedItemTag1: 
+  myWantedItemTag2: 
 --- !u!114 &786204591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1111,8 +1114,8 @@ GameObject:
   - component: {fileID: 995396257}
   - component: {fileID: 995396256}
   m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
+  m_Name: GreenOnion
+  m_TagString: GreenOnion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1335,7 +1338,7 @@ GameObject:
   - component: {fileID: 1300184103}
   m_Layer: 5
   m_Name: Fryingpan
-  m_TagString: Untagged
+  m_TagString: FryingPan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1371,6 +1374,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdfb72f80bf62c54184600832c13111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myWantedItemTag: Egg
+  myWantedItemTag1: 
+  myWantedItemTag2: 
 --- !u!114 &1300184104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1627,7 +1633,7 @@ GameObject:
   - component: {fileID: 1514349007}
   - component: {fileID: 1514349006}
   m_Layer: 5
-  m_Name: Egg
+  m_Name: PantrySlotTwo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1665,6 +1671,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdfb72f80bf62c54184600832c13111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myWantedItemTag: 
+  myWantedItemTag1: 
+  myWantedItemTag2: 
 --- !u!114 &1514349007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1740,7 +1749,7 @@ GameObject:
   - component: {fileID: 1602588596}
   m_Layer: 5
   m_Name: Cuttingboard
-  m_TagString: Untagged
+  m_TagString: Cuttingboard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1776,6 +1785,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdfb72f80bf62c54184600832c13111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myWantedItemTag: GreenOnion
+  myWantedItemTag1: 
+  myWantedItemTag2: 
 --- !u!114 &1602588597
 MonoBehaviour:
   m_ObjectHideFlags: 0

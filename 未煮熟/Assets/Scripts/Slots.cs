@@ -5,11 +5,15 @@ using UnityEngine.EventSystems;
 
 public class Slots : MonoBehaviour, IDropHandler
 {
+    public string myWantedItemTag;
+    public string myWantedItemTag1;
+    public string myWantedItemTag2;
+
     public GameObject myItem
     {
         get
         {
-            if(transform.childCount>0)
+            if(transform.childCount > 0)
             {
                 return transform.GetChild(0).gameObject;
             }
@@ -20,9 +24,19 @@ public class Slots : MonoBehaviour, IDropHandler
 
     public void OnDrop(PointerEventData eventData)
     {
-        if(!myItem)
+        if (DragHandler.myItemBegingDragged.tag == myWantedItemTag || DragHandler.myItemBegingDragged.tag == myWantedItemTag1 || DragHandler.myItemBegingDragged.tag == myWantedItemTag2)
         {
+            if (!myItem)
+            {
             DragHandler.myItemBegingDragged.transform.SetParent(transform);
+            }
+        }
+        else if (myWantedItemTag == "")
+        {
+            if (!myItem)
+            {
+                DragHandler.myItemBegingDragged.transform.SetParent(transform);
+            }
         }
     }
 }
