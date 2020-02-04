@@ -38,5 +38,13 @@ public class Slots : MonoBehaviour, IDropHandler
                 DragHandler.myItemBegingDragged.transform.SetParent(transform);
             }
         }
+
+        if (this.tag == "Cuttingboard") 
+        {
+            if (DragHandler.myItemBegingDragged.tag == "GreenOnion")
+            {
+                //Run animation!!!!
+            }
+        }
     }
 }

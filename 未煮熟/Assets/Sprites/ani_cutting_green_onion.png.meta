@@ -1,0 +1,937 @@
+fileFormatVersion: 2
+guid: 5f26369ebb5d884418fff8cbeda4be5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7122946975765471880
+    second: ani_cutting_green_onion_0
+  - first:
+      213: 4049982391391903465
+    second: ani_cutting_green_onion_1
+  - first:
+      213: -8592365112119766663
+    second: ani_cutting_green_onion_2
+  - first:
+      213: 7082475732940466455
+    second: ani_cutting_green_onion_3
+  - first:
+      213: -1703063185220798662
+    second: ani_cutting_green_onion_4
+  - first:
+      213: 7521510522289968956
+    second: ani_cutting_green_onion_5
+  - first:
+      213: 3316120616709494208
+    second: ani_cutting_green_onion_6
+  - first:
+      213: -3908189882623846602
+    second: ani_cutting_green_onion_7
+  - first:
+      213: 3157236597889900820
+    second: ani_cutting_green_onion_8
+  - first:
+      213: 253002163570369840
+    second: ani_cutting_green_onion_9
+  - first:
+      213: 1946991401667953743
+    second: ani_cutting_green_onion_10
+  - first:
+      213: 7993492339869813981
+    second: ani_cutting_green_onion_11
+  - first:
+      213: -8446230391507829137
+    second: ani_cutting_green_onion_12
+  - first:
+      213: 6695279908003608302
+    second: ani_cutting_green_onion_13
+  - first:
+      213: 2470762225049002030
+    second: ani_cutting_green_onion_14
+  - first:
+      213: -7719679855191475911
+    second: ani_cutting_green_onion_15
+  - first:
+      213: 4245785899002430334
+    second: ani_cutting_green_onion_16
+  - first:
+      213: -1592942606490973141
+    second: ani_cutting_green_onion_17
+  - first:
+      213: -4912038150130496940
+    second: ani_cutting_green_onion_18
+  - first:
+      213: 2282911909217612151
+    second: ani_cutting_green_onion_19
+  - first:
+      213: 6051328476305414550
+    second: ani_cutting_green_onion_20
+  - first:
+      213: 7237738746959595674
+    second: ani_cutting_green_onion_21
+  - first:
+      213: 481706674310110296
+    second: ani_cutting_green_onion_22
+  - first:
+      213: -3901868475267374224
+    second: ani_cutting_green_onion_23
+  - first:
+      213: 8686687782374003004
+    second: ani_cutting_green_onion_24
+  - first:
+      213: -1864166837311615040
+    second: ani_cutting_green_onion_25
+  - first:
+      213: 282620513804015417
+    second: ani_cutting_green_onion_26
+  - first:
+      213: -5946801732068451058
+    second: ani_cutting_green_onion_27
+  - first:
+      213: -3832440409719315065
+    second: ani_cutting_green_onion_28
+  - first:
+      213: 28266005002084317
+    second: ani_cutting_green_onion_29
+  - first:
+      213: 1710421216800426168
+    second: ani_cutting_green_onion_0
+  - first:
+      213: -6816163119360374664
+    second: ani_cutting_green_onion_1
+  - first:
+      213: -1290655798146463278
+    second: ani_cutting_green_onion_2
+  - first:
+      213: 9058654380283079166
+    second: ani_cutting_green_onion_3
+  - first:
+      213: -3903633821197364478
+    second: ani_cutting_green_onion_4
+  - first:
+      213: -4962284320192882901
+    second: ani_cutting_green_onion_5
+  - first:
+      213: 3622282804162995074
+    second: ani_cutting_green_onion_6
+  - first:
+      213: 1543255308558290583
+    second: ani_cutting_green_onion_7
+  - first:
+      213: -8771660269987325956
+    second: ani_cutting_green_onion_8
+  - first:
+      213: -1265822847291948495
+    second: ani_cutting_green_onion_9
+  - first:
+      213: 530085505719387522
+    second: ani_cutting_green_onion_10
+  - first:
+      213: -254124499271999909
+    second: ani_cutting_green_onion_11
+  - first:
+      213: -5936264143480390397
+    second: ani_cutting_green_onion_12
+  - first:
+      213: 2580522268342859206
+    second: ani_cutting_green_onion_13
+  - first:
+      213: -7596152050731668307
+    second: ani_cutting_green_onion_14
+  - first:
+      213: -8120142936690002514
+    second: ani_cutting_green_onion_15
+  - first:
+      213: -37536772206049841
+    second: ani_cutting_green_onion_16
+  - first:
+      213: 8965734728669756879
+    second: ani_cutting_green_onion_17
+  - first:
+      213: -8291763642931807219
+    second: ani_cutting_green_onion_18
+  - first:
+      213: -7178790512124344712
+    second: ani_cutting_green_onion_19
+  - first:
+      213: -2355105230000040132
+    second: ani_cutting_green_onion_20
+  - first:
+      213: 5764770621890132937
+    second: ani_cutting_green_onion_21
+  - first:
+      213: -7025344403349321995
+    second: ani_cutting_green_onion_22
+  - first:
+      213: 8196142772144544524
+    second: ani_cutting_green_onion_23
+  - first:
+      213: -3437225203538894492
+    second: ani_cutting_green_onion_24
+  - first:
+      213: 5946346863213813810
+    second: ani_cutting_green_onion_25
+  - first:
+      213: 666377450571689715
+    second: ani_cutting_green_onion_26
+  - first:
+      213: 4949029302737145588
+    second: ani_cutting_green_onion_27
+  - first:
+      213: -1356206354400773564
+    second: ani_cutting_green_onion_28
+  - first:
+      213: -6280409934301605926
+    second: ani_cutting_green_onion_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b84ea3d803acb710800000000000000
+      internalID: 1710421216800426168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878086ba1cf1861a0800000000000000
+      internalID: -6816163119360374664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d98e28c36ba61ee0800000000000000
+      internalID: -1290655798146463278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef92fcff92ec6bd70800000000000000
+      internalID: 9058654380283079166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2039452d8b183d9c0800000000000000
+      internalID: -3903633821197364478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27996cb3bc622bb0800000000000000
+      internalID: -4962284320192882901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283242ac40fe44230800000000000000
+      internalID: 3622282804162995074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e4a50d68eba6510800000000000000
+      internalID: 1543255308558290583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf79ffc657dc44680800000000000000
+      internalID: -8771660269987325956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1320796b3d4ee6ee0800000000000000
+      internalID: -1265822847291948495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285ccfc75fd3b5700800000000000000
+      internalID: 530085505719387522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e1b244d1b297cf0800000000000000
+      internalID: -254124499271999909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d76f296372e9da0800000000000000
+      internalID: -5936264143480390397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5bf83b45bdfc320800000000000000
+      internalID: 2580522268342859206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daca84cb4fb059690800000000000000
+      internalID: -7596152050731668307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_15
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5f13d75057f4f80800000000000000
+      internalID: -8120142936690002514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5c4aa2184aa7ff0800000000000000
+      internalID: -37536772206049841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd7eb4bb30bc6c70800000000000000
+      internalID: 8965734728669756879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cfc8df5ecbdec80800000000000000
+      internalID: -8291763642931807219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87642e76010df5c90800000000000000
+      internalID: -7178790512124344712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37de2d654cf05fd0800000000000000
+      internalID: -2355105230000040132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_21
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb7e596654900050800000000000000
+      internalID: 5764770621890132937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_22
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6c59dac76f08e90800000000000000
+      internalID: -7025344403349321995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b9f0e1d6c8eb170800000000000000
+      internalID: 8196142772144544524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4616b0a73e58c40d0800000000000000
+      internalID: -3437225203538894492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2302e1d87faa58250800000000000000
+      internalID: 5946346863213813810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fee7abb2c27f3900800000000000000
+      internalID: 666377450571689715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe85a40eeb7ea440800000000000000
+      internalID: 4949029302737145588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a70d39189cd2de0800000000000000
+      internalID: -1356206354400773564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_green_onion_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf4e16907087d8a0800000000000000
+      internalID: -6280409934301605926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

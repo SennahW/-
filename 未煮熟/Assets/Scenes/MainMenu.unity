@@ -1113,6 +1113,7 @@ GameObject:
   - component: {fileID: 995396258}
   - component: {fileID: 995396257}
   - component: {fileID: 995396256}
+  - component: {fileID: 995396260}
   m_Layer: 5
   m_Name: GreenOnion
   m_TagString: GreenOnion
@@ -1199,6 +1200,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995396254}
   m_CullTransparentMesh: 0
+--- !u!95 &995396260
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995396254}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e2d624bd434266848a627ef31e0c129a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1002311519
 GameObject:
   m_ObjectHideFlags: 0
