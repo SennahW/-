@@ -52,6 +52,7 @@ public class Audio_Manager : MonoBehaviour
         {
             s.mySource.pitch = 0f;
         }
+
         s.mySource.Play();
     }
 
