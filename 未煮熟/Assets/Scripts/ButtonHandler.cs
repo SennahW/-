@@ -7,17 +7,17 @@ public class ButtonHandler : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(3);
-    }
-
-    public void Settings()
-    {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void Recipes()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
     
     public void ExitGame()
