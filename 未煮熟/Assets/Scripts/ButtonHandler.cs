@@ -10,7 +10,7 @@ public class ButtonHandler : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
-    public void Recipes()
+    public void RecipesMenu()
     {
         SceneManager.LoadScene(1);
     }
@@ -20,7 +20,7 @@ public class ButtonHandler : MonoBehaviour
         SceneManager.LoadScene(0);
     }
     
-    public void ExitGame()
+    public void QuitGame()
     {
         Application.Quit();
         Debug.Log("Quitting game...");
