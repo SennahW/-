@@ -1316,7 +1316,7 @@ PrefabInstance:
     - target: {fileID: 7884819199963595305, guid: 935c8b600e0a00448b0668cc791ae176,
         type: 3}
       propertyPath: mySounds.Array.data[0].myVolume
-      value: 1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 7884819199963595305, guid: 935c8b600e0a00448b0668cc791ae176,
         type: 3}

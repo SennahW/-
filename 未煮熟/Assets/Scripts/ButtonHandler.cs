@@ -23,6 +23,6 @@ public class ButtonHandler : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
-        Debug.Log("Exit");
+        Debug.Log("Quitting game...");
     }
 }

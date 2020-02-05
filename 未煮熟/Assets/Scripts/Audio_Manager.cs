@@ -37,7 +37,6 @@ public class Audio_Manager : MonoBehaviour
     void Start()
     {
         Play("Theme");
-        AudioListener.pause = false;
     }
 
     public void Play (string myName)
@@ -51,7 +50,7 @@ public class Audio_Manager : MonoBehaviour
 
         if(PauseMenu.GameIsPaused)
         {
-            AudioListener.pause = true;
+            s.mySource.pitch = 0f;
         }
         s.mySource.Play();
     }
