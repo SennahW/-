@@ -623,6 +623,7 @@
     <Compile Include="Assets\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Scripts\DragHandler.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Slots.cs" />
     <Compile Include="Assets\Scripts\Sound.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
