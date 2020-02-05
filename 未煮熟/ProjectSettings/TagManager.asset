@@ -8,6 +8,14 @@ TagManager:
   - Cuttingboard
   - GreenOnion
   - Egg
+  - GreenOnionChopped
+  - BowlStorage
+  - Bowl
+  - CraftSlotOne
+  - CraftSlotTwo
+  - CraftSlotThree
+  - CraftYield
+  - EggCooked
   layers:
   - Default
   - TransparentFX
