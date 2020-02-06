@@ -62,7 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Recipes.cs" />
     <Compile Include="Assets\Resources\Scripts\Audio_Manager.cs" />
     <Compile Include="Assets\Resources\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Resources\Scripts\Craft.cs" />
@@ -71,6 +70,7 @@
     <Compile Include="Assets\Resources\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Resources\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Resources\Scripts\PickedUppSpriteScript.cs" />
+    <Compile Include="Assets\Resources\Scripts\Recipes.cs" />
     <Compile Include="Assets\Resources\Scripts\Slots.cs" />
     <Compile Include="Assets\Resources\Scripts\Sound.cs" />
     <Compile Include="Assets\Resources\Scripts\SpawnChopped.cs" />
