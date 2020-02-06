@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7897280003915469433}
   - component: {fileID: 7897280003915469432}
   - component: {fileID: 7897280003915469436}
+  - component: {fileID: -3128676517543093229}
   m_Layer: 5
   m_Name: GreenOnionChopped
   m_TagString: GreenOnionChopped
@@ -119,3 +120,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-3128676517543093229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7897280003915469382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1dea19f0b156bc43b3dccf2d6bcd06c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

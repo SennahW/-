@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PickedUppSpriteScript.cs" />
     <Compile Include="Assets\Resources\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Resources\Scripts\Craft.cs" />
     <Compile Include="Assets\Resources\Scripts\DragHandler.cs" />

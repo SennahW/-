@@ -16,11 +16,6 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         myStartPosition = transform.position;
         myStartParent = transform.parent;
         GetComponent<CanvasGroup>().blocksRaycasts = false;
-        if (this.tag == "GreenOnionChopped")
-        {
-            var temp = this.gameObject.GetComponent<Image>();
-            temp.sprite = Resources.Load<Sprite>("Sprites/green_union_hold");
-        }
     }
 
     public void OnDrag(PointerEventData eventData)
