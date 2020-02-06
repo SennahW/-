@@ -62,19 +62,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Resources\Scripts\Audio_Manager.cs" />
-    <Compile Include="Assets\Resources\Scripts\ButtonHandler.cs" />
-    <Compile Include="Assets\Resources\Scripts\Craft.cs" />
-    <Compile Include="Assets\Resources\Scripts\DragHandler.cs" />
-    <Compile Include="Assets\Resources\Scripts\GameOver.cs" />
-    <Compile Include="Assets\Resources\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Resources\Scripts\PauseMenu.cs" />
-    <Compile Include="Assets\Resources\Scripts\PickedUppSpriteScript.cs" />
-    <Compile Include="Assets\Resources\Scripts\Recipes.cs" />
-    <Compile Include="Assets\Resources\Scripts\Slots.cs" />
-    <Compile Include="Assets\Resources\Scripts\Sound.cs" />
-    <Compile Include="Assets\Resources\Scripts\SpawnChopped.cs" />
-    <Compile Include="Assets\Resources\Scripts\Timer.cs" />
+    <Compile Include="Assets\Resources\Scripts\Game1\Craft.cs" />
+    <Compile Include="Assets\Resources\Scripts\Game1\DragHandler.cs" />
+    <Compile Include="Assets\Resources\Scripts\Game1\PauseMenu.cs" />
+    <Compile Include="Assets\Resources\Scripts\Game1\PickedUppSpriteScript.cs" />
+    <Compile Include="Assets\Resources\Scripts\Game1\Slots.cs" />
+    <Compile Include="Assets\Resources\Scripts\Game1\SpawnChopped.cs" />
+    <Compile Include="Assets\Resources\Scripts\Game1\Timer.cs" />
+    <Compile Include="Assets\Resources\Scripts\GameOver\GameOver.cs" />
+    <Compile Include="Assets\Resources\Scripts\GameOver\HighscoreTable.cs" />
+    <Compile Include="Assets\Resources\Scripts\MainMenu\ButtonHandler.cs" />
+    <Compile Include="Assets\Resources\Scripts\Recipes\Recipes.cs" />
+    <Compile Include="Assets\Resources\Scripts\SoundManager\Audio_Manager.cs" />
+    <Compile Include="Assets\Resources\Scripts\SoundManager\Sound.cs" />
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

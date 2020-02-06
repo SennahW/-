@@ -11,7 +11,7 @@ public class PickedUppSpriteScript : MonoBehaviour, IBeginDragHandler, IEndDragH
         if (this.tag == "GreenOnionChopped")
         {
             Debug.Log("DragginChopped");
-            this.gameObject.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/green_union_hold");
+            this.gameObject.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/Game1/green_union_hold");
 
         }
     }
@@ -21,8 +21,8 @@ public class PickedUppSpriteScript : MonoBehaviour, IBeginDragHandler, IEndDragH
         if (this.tag == "GreenOnionChopped")
         {
             Debug.Log("DroppingChopped");
-            this.gameObject.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/green_union_cut");
-            Debug.Log(Resources.Load<Sprite>("Sprites/green_union_cut").name);
+            this.gameObject.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/Game1/green_union_cut");
+            Debug.Log(Resources.Load<Sprite>("Sprites/Game1/green_union_cut").name);
         }
     }
 }
