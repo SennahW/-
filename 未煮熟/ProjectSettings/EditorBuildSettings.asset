@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Resources/Scenes/StartMenu.unity
+    path: Assets/Resources/Scenes/MainMenu.unity
     guid: b675a5b790e6a214eac9254aedbdf3bd
   - enabled: 1
-    path: Assets/Resources/Scenes/MainMenu.unity
-    guid: 07b6679a40c9cf94590d38f73f97995a
+    path: Assets/Resources/Scenes/Recipes.unity
+    guid: 6cd1ce69820fa2c4bbaeb2484ad03128
   - enabled: 1
     path: Assets/Resources/Scenes/Game1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Resources/Scenes/GameOver.unity
+    guid: 74f7796f3e7efbb48ab1cbb32aa66278
   m_configObjects: {}
