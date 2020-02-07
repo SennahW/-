@@ -20,6 +20,9 @@ TagManager:
   - Pot
   - EggStorage
   - LemonStorage
+  - CraftSlotFour
+  - CraftSlotFive
+  - CraftSlotSix
   layers:
   - Default
   - TransparentFX
