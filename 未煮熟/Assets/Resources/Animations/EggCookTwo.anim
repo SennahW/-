@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EggCookTwo
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: -7114698749443472433, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 0.26666668
+      value: {fileID: 6044859955840743205, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 0.53333336
+      value: {fileID: 2565156999686404316, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 0.78333336
+      value: {fileID: 9169367601903794668, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 1
+      value: {fileID: 21300000, guid: fcbf57f63de0e4b48ba4427289ae6b58, type: 3}
+    - time: 1.05
+      value: {fileID: -5383223526794455702, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 1.3166667
+      value: {fileID: -759908055879259621, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 1.5833334
+      value: {fileID: 9189253703665292926, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 1.85
+      value: {fileID: 4805027956026104941, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 2.1
+      value: {fileID: -5530911270137391659, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 2.3666666
+      value: {fileID: 5608307225497589406, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 2.6333334
+      value: {fileID: 3503724038227585772, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 2.9
+      value: {fileID: 3392540991345249790, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 3.15
+      value: {fileID: -8282571017255360785, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 3.4166667
+      value: {fileID: 3548277517658351140, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 3.6833334
+      value: {fileID: -688728553857097970, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 3.95
+      value: {fileID: -3378987756402234929, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 4.2166667
+      value: {fileID: 6445226585386116613, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 4.4666667
+      value: {fileID: -2345123958041294037, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 4.733333
+      value: {fileID: 8567638535655259983, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    - time: 5
+      value: {fileID: -5558047444064936479, guid: e7628ac330e00e84a9a462946a462ff1,
+        type: 3}
+    attribute: m_Sprite
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: -7114698749443472433, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: 6044859955840743205, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: 2565156999686404316, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: 9169367601903794668, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: 21300000, guid: fcbf57f63de0e4b48ba4427289ae6b58, type: 3}
+    - {fileID: -5383223526794455702, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: -759908055879259621, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: 9189253703665292926, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: 4805027956026104941, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: -5530911270137391659, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: 5608307225497589406, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: 3503724038227585772, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: 3392540991345249790, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: -8282571017255360785, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: 3548277517658351140, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: -688728553857097970, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: -3378987756402234929, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: 6445226585386116613, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: -2345123958041294037, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: 8567638535655259983, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+    - {fileID: -5558047444064936479, guid: e7628ac330e00e84a9a462946a462ff1, type: 3}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 5.016667
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events:
+  - time: 5.016667
+    functionName: SpawnCookedEggTwo
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

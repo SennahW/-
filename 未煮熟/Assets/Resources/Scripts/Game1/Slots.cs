@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
+
 
 public class Slots : MonoBehaviour, IDropHandler
 {
@@ -33,6 +35,42 @@ public class Slots : MonoBehaviour, IDropHandler
                 Instantiate<GameObject>(Bowl, this.transform);
             }
         }
+
+        if (tag == "FryingPanOne")
+        {
+            if (transform.childCount > 0)
+            {
+                if (transform.GetChild(0).tag == "EggCooked")
+                {
+                    GetComponent<GridLayoutGroup>().padding.top = -10;
+                    Debug.Log(GetComponent<GridLayoutGroup>().padding);
+                    LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+                }
+            }
+            else
+            {
+                GetComponent<GridLayoutGroup>().padding.top = 0;
+                LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+            }
+        }
+        if (tag == "FryingPanTwo")
+        {
+
+            if (transform.childCount > 0)
+            {
+                if (transform.GetChild(0).tag == "EggCooked")
+                {
+                    GetComponent<GridLayoutGroup>().padding.top = 20;
+                    Debug.Log(GetComponent<GridLayoutGroup>().padding);
+                    LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+                }
+            }
+            else
+            {
+                GetComponent<GridLayoutGroup>().padding.top = 0;
+                LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+            }
+        }
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -62,15 +100,23 @@ public class Slots : MonoBehaviour, IDropHandler
             }
         }
 
-        if (this.tag == "FryingPan")
+        if (this.tag == "FryingpanOne")
         {
             if (DragHandler.myItemBegingDragged.tag == "Egg")
             {
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookEgg");
-            }   
+            }
         }
-    }
+        if (this.tag == "FryingpanTwo")
+        {
+            if (DragHandler.myItemBegingDragged.tag == "Egg")
+            {
+                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                temp.SetTrigger("CookEggTwo");
+            }
+        }
+}
 
     public void SpawnChoppenGeenOnion()
     {
