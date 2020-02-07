@@ -18,6 +18,7 @@ TagManager:
   - FryingpanOne
   - FryingpanTwo
   - Pot
+  - EggStorage
   layers:
   - Default
   - TransparentFX
