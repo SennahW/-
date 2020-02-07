@@ -36,15 +36,6 @@ public class Slots : MonoBehaviour, IDropHandler
             }
         }
 
-        if(this.tag == "EggStorage")
-        {
-            if(transform.childCount < 1)
-            {
-                GameObject Egg = Resources.Load<GameObject>("Prefabs/Egg");
-                Instantiate<GameObject>(Egg, this.transform);
-            }
-        }
-
         if (tag == "FryingPanOne")
         {
             if (transform.childCount > 0)
