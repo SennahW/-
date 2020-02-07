@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Resources\Scripts\Game1\Craft.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\DragHandler.cs" />
+    <Compile Include="Assets\Resources\Scripts\Game1\Game0ver.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\PauseMenu.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\PickedUppSpriteScript.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\Slots.cs" />
