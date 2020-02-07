@@ -45,6 +45,15 @@ public class Slots : MonoBehaviour, IDropHandler
             }
         }
 
+        if (this.tag == "LemonStorage")
+        {
+            if (transform.childCount < 1)
+            {
+                GameObject Lemon = Resources.Load<GameObject>("Prefabs/Lemon");
+                Instantiate<GameObject>(Lemon, this.transform);
+            }
+        }
+
         if (tag == "FryingPanOne")
         {
             if (transform.childCount > 0)
