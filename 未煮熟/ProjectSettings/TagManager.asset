@@ -25,6 +25,9 @@ TagManager:
   - PorkStorage
   - ShrimpStorage
   - GreenOnionStorage
+  - CraftSlotFour
+  - CraftSlotFive
+  - CraftSlotSix
   layers:
   - Default
   - TransparentFX

@@ -99,7 +99,7 @@ public class Slots : MonoBehaviour, IDropHandler
             }
         }
 
-        if (tag == "FryingPanOne")
+        if (tag == "FryingpanOne")
         {
             if (transform.childCount > 0)
             {
@@ -116,7 +116,7 @@ public class Slots : MonoBehaviour, IDropHandler
                 LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
             }
         }
-        if (tag == "FryingPanTwo")
+        if (tag == "FryingpanTwo")
         {
 
             if (transform.childCount > 0)

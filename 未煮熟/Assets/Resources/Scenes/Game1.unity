@@ -2523,13 +2523,16 @@ RectTransform:
   - {fileID: 1337792654}
   - {fileID: 660108356}
   - {fileID: 1105017633}
+  - {fileID: 1277347597}
+  - {fileID: 1231029347}
+  - {fileID: 492475871}
   m_Father: {fileID: 1689014852}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -178.135, y: 0}
-  m_SizeDelta: {x: 356.26996, y: 0}
+  m_AnchoredPosition: {x: -334.1, y: 0}
+  m_SizeDelta: {x: 668.2, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &787284681
 MonoBehaviour:
