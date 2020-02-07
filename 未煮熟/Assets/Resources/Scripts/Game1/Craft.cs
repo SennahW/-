@@ -26,7 +26,6 @@ public class Craft : MonoBehaviour
         gameObjectSix = GameObject.FindGameObjectWithTag("CraftSlotSix");
         gameObjectOut = GameObject.FindGameObjectWithTag("CraftYield");
 
-
         if (gameObjectOne.transform.childCount > 0)
         {
             if (gameObjectTwo.transform.childCount > 0)
@@ -48,6 +47,7 @@ public class Craft : MonoBehaviour
                                         DestroyImmediate(gameObjectOne.transform.GetChild(0).gameObject);
                                         DestroyImmediate(gameObjectTwo.transform.GetChild(0).gameObject);
                                         DestroyImmediate(gameObjectThree.transform.GetChild(0).gameObject);
+                                        DestroyImmediate(gameObjectFour.transform.GetChild(0).gameObject);
                                     }
                                 }
                             }

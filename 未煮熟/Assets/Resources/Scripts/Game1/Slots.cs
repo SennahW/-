@@ -58,8 +58,8 @@ public class Slots : MonoBehaviour, IDropHandler
         {
             if (transform.childCount < 1)
             {
-                //GameObject Rice = Resources.Load<GameObject>("Prefabs/Rice");
-                //Instantiate<GameObject>(Rice, this.transform);
+                GameObject Rice = Resources.Load<GameObject>("Prefabs/Rice");
+                Instantiate<GameObject>(Rice, this.transform);
             }
         }
 
@@ -103,7 +103,7 @@ public class Slots : MonoBehaviour, IDropHandler
         {
             if (transform.childCount > 0)
             {
-                if (transform.GetChild(0).tag == "EggCooked")
+                if (transform.GetChild(0).tag == "EggCooked" && GetComponent<GridLayoutGroup>().padding.top != 10)
                 {
                     GetComponent<GridLayoutGroup>().padding.top = -10;
                     Debug.Log(GetComponent<GridLayoutGroup>().padding);
@@ -124,6 +124,42 @@ public class Slots : MonoBehaviour, IDropHandler
                 if (transform.GetChild(0).tag == "EggCooked")
                 {
                     GetComponent<GridLayoutGroup>().padding.top = 20;
+                    Debug.Log(GetComponent<GridLayoutGroup>().padding);
+                    LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+                }
+            }
+            else
+            {
+                GetComponent<GridLayoutGroup>().padding.top = 0;
+                LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+            }
+        }
+        if (tag == "PotOne")
+        {
+
+            if (transform.childCount > 0)
+            {
+                if (transform.GetChild(0).tag == "RiceCooked")
+                {
+                    GetComponent<GridLayoutGroup>().padding.top = -30;
+                    Debug.Log(GetComponent<GridLayoutGroup>().padding);
+                    LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+                }
+            }
+            else
+            {
+                GetComponent<GridLayoutGroup>().padding.top = 0;
+                LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+            }
+        }
+        if (tag == "PotTwo")
+        {
+
+            if (transform.childCount > 0)
+            {
+                if (transform.GetChild(0).tag == "RiceCooked")
+                {
+                    GetComponent<GridLayoutGroup>().padding.top = -30;
                     Debug.Log(GetComponent<GridLayoutGroup>().padding);
                     LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
                 }
@@ -179,7 +215,25 @@ public class Slots : MonoBehaviour, IDropHandler
                 temp.SetTrigger("CookEggTwo");
             }
         }
-}
+
+        if (this.tag == "PotOne")
+        {
+            if (DragHandler.myItemBegingDragged.tag == "Rice")
+            {
+                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                temp.SetTrigger("CookRice");
+            }
+        }
+
+        if (this.tag == "PotTwo")
+        {
+            if (DragHandler.myItemBegingDragged.tag == "Rice")
+            {
+                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                temp.SetTrigger("CookRiceTwo");
+            }
+        }
+    }
 
     public void SpawnChoppenGeenOnion()
     {
@@ -193,6 +247,11 @@ public class Slots : MonoBehaviour, IDropHandler
         Debug.Log("SpawnedEggCooked");
         GameObject myEggCooked = Resources.Load<GameObject>("Prefabs/EggCooked");
         Instantiate<GameObject>(myEggCooked, this.transform);
+    }
 
+    public void SpawnCookedRice()
+    {
+        GameObject RiceCooked = Resources.Load<GameObject>("Prefabs/RiceCooked");
+        Instantiate<GameObject>(RiceCooked, this.transform);
     }
 }
