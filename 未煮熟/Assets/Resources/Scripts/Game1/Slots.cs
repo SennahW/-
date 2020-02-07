@@ -49,8 +49,53 @@ public class Slots : MonoBehaviour, IDropHandler
         {
             if (transform.childCount < 1)
             {
-                GameObject Lemon = Resources.Load<GameObject>("Prefabs/Lemon");
-                Instantiate<GameObject>(Lemon, this.transform);
+                //GameObject Lemon = Resources.Load<GameObject>("Prefabs/Lemon");
+                //Instantiate<GameObject>(Lemon, this.transform);
+            }
+        }
+
+        if (this.tag == "RiceStorage")
+        {
+            if (transform.childCount < 1)
+            {
+                //GameObject Rice = Resources.Load<GameObject>("Prefabs/Rice");
+                //Instantiate<GameObject>(Rice, this.transform);
+            }
+        }
+
+        if (this.tag == "ShrimpStorage")
+        {
+            if (transform.childCount < 1)
+            {
+                //GameObject Shrimp = Resources.Load<GameObject>("Prefabs/Shrimp");
+                //Instantiate<GameObject>(Shrimp, this.transform);
+            }
+        }
+
+        if (this.tag == "ClamStorage")
+        {
+            if (transform.childCount < 1)
+            {
+                //GameObject Clam = Resources.Load<GameObject>("Prefabs/Clam");
+                //Instantiate<GameObject>(Clam, this.transform);
+            }
+        }
+
+        if (this.tag == "PorkStorage")
+        {
+            if (transform.childCount < 1)
+            {
+                //GameObject Pork = Resources.Load<GameObject>("Prefabs/Pork");
+                //Instantiate<GameObject>(Pork, this.transform);
+            }
+        }
+
+        if (this.tag == "GreenOnionStorage")
+        {
+            if (transform.childCount < 1)
+            {
+                GameObject GreenOnion = Resources.Load<GameObject>("Prefabs/GreenOnion");
+                Instantiate<GameObject>(GreenOnion, this.transform);
             }
         }
 

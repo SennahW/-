@@ -20,6 +20,11 @@ TagManager:
   - Pot
   - EggStorage
   - LemonStorage
+  - RiceStorage
+  - ClamStorage
+  - PorkStorage
+  - ShrimpStorage
+  - GreenOnionStorage
   layers:
   - Default
   - TransparentFX
