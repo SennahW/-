@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - FryingPan
   - Cuttingboard
   - GreenOnion
   - Egg
@@ -16,6 +15,8 @@ TagManager:
   - CraftSlotThree
   - CraftYield
   - EggCooked
+  - FryingpanOne
+  - FryingpanTwo
   layers:
   - Default
   - TransparentFX

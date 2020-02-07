@@ -42,7 +42,15 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public void SpawnCookedEgg()
     {
         Debug.Log("Spawn1");
-        GameObject.FindGameObjectWithTag("FryingPan").GetComponent<Slots>().SpawnCookedEgg();
+        GameObject.FindGameObjectWithTag("FryingpanOne").GetComponent<Slots>().SpawnCookedEgg();
         Destroy(this.gameObject);
     }
+
+    public void SpawnCookedEggTwo()
+    {
+        Debug.Log("Spawn2");
+        GameObject.FindGameObjectWithTag("FryingpanTwo").GetComponent<Slots>().SpawnCookedEgg();
+        Destroy(this.gameObject);
+    }
+
 }
