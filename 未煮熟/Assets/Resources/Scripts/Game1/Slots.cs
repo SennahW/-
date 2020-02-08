@@ -228,6 +228,11 @@ public class Slots : MonoBehaviour, IDropHandler
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookRice");
             }
+            else if (DragHandler.myItemBegingDragged.tag == "Clams")
+            {
+                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                temp.SetTrigger("CookClam");
+            }
         }
 
         if (this.tag == "PotTwo")
@@ -236,6 +241,11 @@ public class Slots : MonoBehaviour, IDropHandler
             {
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookRiceTwo");
+            }
+            else if (DragHandler.myItemBegingDragged.tag == "Clams")
+            {
+                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                temp.SetTrigger("CookClam");
             }
         }
     }
