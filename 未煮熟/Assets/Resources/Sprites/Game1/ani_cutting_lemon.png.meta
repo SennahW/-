@@ -1,0 +1,1513 @@
+fileFormatVersion: 2
+guid: 3e32d75ae4215cd408729c589adb72b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 769544395772445999
+    second: ani_cutting_lemon_0
+  - first:
+      213: 6098926632951724796
+    second: ani_cutting_lemon_1
+  - first:
+      213: -221728299340460049
+    second: ani_cutting_lemon_2
+  - first:
+      213: -4476146000357938574
+    second: ani_cutting_lemon_3
+  - first:
+      213: -7031179537748095031
+    second: ani_cutting_lemon_4
+  - first:
+      213: 7484518196027309330
+    second: ani_cutting_lemon_5
+  - first:
+      213: 1298950080067426095
+    second: ani_cutting_lemon_6
+  - first:
+      213: 1315956108236099825
+    second: ani_cutting_lemon_7
+  - first:
+      213: 3660642345676242659
+    second: ani_cutting_lemon_8
+  - first:
+      213: 3241509481491321748
+    second: ani_cutting_lemon_9
+  - first:
+      213: -2092950047254786143
+    second: ani_cutting_lemon_10
+  - first:
+      213: -1268932907376592632
+    second: ani_cutting_lemon_11
+  - first:
+      213: 6995269651385176258
+    second: ani_cutting_lemon_12
+  - first:
+      213: -7998447910235983146
+    second: ani_cutting_lemon_13
+  - first:
+      213: 2536323221142541409
+    second: ani_cutting_lemon_14
+  - first:
+      213: -5991926523548136761
+    second: ani_cutting_lemon_15
+  - first:
+      213: -3155514422712186574
+    second: ani_cutting_lemon_16
+  - first:
+      213: -7186474894024808885
+    second: ani_cutting_lemon_17
+  - first:
+      213: -9004522627747303792
+    second: ani_cutting_lemon_18
+  - first:
+      213: -2214749626629425828
+    second: ani_cutting_lemon_19
+  - first:
+      213: 6568290101741154446
+    second: ani_cutting_lemon_20
+  - first:
+      213: -7904723409298382000
+    second: ani_cutting_lemon_21
+  - first:
+      213: 3540766467890828197
+    second: ani_cutting_lemon_22
+  - first:
+      213: 729236037389858298
+    second: ani_cutting_lemon_23
+  - first:
+      213: -3364860331018891765
+    second: ani_cutting_lemon_24
+  - first:
+      213: -4878716611424665678
+    second: ani_cutting_lemon_25
+  - first:
+      213: 5096992757781016589
+    second: ani_cutting_lemon_26
+  - first:
+      213: 5856261385440449191
+    second: ani_cutting_lemon_27
+  - first:
+      213: -4826137638990922683
+    second: ani_cutting_lemon_28
+  - first:
+      213: -1964287495023025940
+    second: ani_cutting_lemon_29
+  - first:
+      213: 8792068571595047007
+    second: ani_cutting_lemon_30
+  - first:
+      213: 2735198317880483783
+    second: ani_cutting_lemon_31
+  - first:
+      213: 6524976231647467795
+    second: ani_cutting_lemon_32
+  - first:
+      213: 7177673132426267473
+    second: ani_cutting_lemon_33
+  - first:
+      213: 5714334377509532839
+    second: ani_cutting_lemon_34
+  - first:
+      213: 5509728565318270529
+    second: ani_cutting_lemon_35
+  - first:
+      213: 6538601451531278790
+    second: ani_cutting_lemon_36
+  - first:
+      213: 6353325553890764446
+    second: ani_cutting_lemon_37
+  - first:
+      213: 2795645629060370732
+    second: ani_cutting_lemon_38
+  - first:
+      213: 3748534259248131586
+    second: ani_cutting_lemon_39
+  - first:
+      213: -8736936967160748942
+    second: ani_cutting_lemon_40
+  - first:
+      213: -7737392287224566954
+    second: ani_cutting_lemon_41
+  - first:
+      213: 5567631704982548596
+    second: ani_cutting_lemon_42
+  - first:
+      213: -4147255370516896330
+    second: ani_cutting_lemon_43
+  - first:
+      213: 6387755043845744020
+    second: ani_cutting_lemon_44
+  - first:
+      213: 7182389589625883755
+    second: ani_cutting_lemon_45
+  - first:
+      213: -7200380542377047691
+    second: ani_cutting_lemon_46
+  - first:
+      213: -7616288145455660799
+    second: ani_cutting_lemon_47
+  - first:
+      213: 2225652936517369798
+    second: ani_cutting_lemon_48
+  - first:
+      213: 9007090873085194591
+    second: ani_cutting_lemon_49
+  - first:
+      213: 4976537962698153824
+    second: ani_cutting_lemon_50
+  - first:
+      213: -2938938276581649845
+    second: ani_cutting_lemon_51
+  - first:
+      213: -5028826771291492880
+    second: ani_cutting_lemon_52
+  - first:
+      213: 1379039077253691468
+    second: ani_cutting_lemon_53
+  - first:
+      213: -2008821170405199869
+    second: ani_cutting_lemon_54
+  - first:
+      213: -4651100192941706078
+    second: ani_cutting_lemon_55
+  - first:
+      213: 684413469662209005
+    second: ani_cutting_lemon_56
+  - first:
+      213: -3411797552257013114
+    second: ani_cutting_lemon_57
+  - first:
+      213: -370809309888867812
+    second: ani_cutting_lemon_58
+  - first:
+      213: 3202447037961046164
+    second: ani_cutting_lemon_59
+  - first:
+      213: -2925182702026322508
+    second: ani_cutting_lemon_60
+  - first:
+      213: -8240101521166518042
+    second: ani_cutting_lemon_61
+  - first:
+      213: 4098421610371126271
+    second: ani_cutting_lemon_62
+  - first:
+      213: -6166146686925697037
+    second: ani_cutting_lemon_63
+  - first:
+      213: -2053754554496087959
+    second: ani_cutting_lemon_64
+  - first:
+      213: 1681450888436310348
+    second: ani_cutting_lemon_65
+  - first:
+      213: 7102398477803760639
+    second: ani_cutting_lemon_66
+  - first:
+      213: -1836629425637779724
+    second: ani_cutting_lemon_67
+  - first:
+      213: -2327065995292301621
+    second: ani_cutting_lemon_68
+  - first:
+      213: 1978476600615147258
+    second: ani_cutting_lemon_69
+  - first:
+      213: 3644068396941696109
+    second: ani_cutting_lemon_70
+  - first:
+      213: 9090103298547125973
+    second: ani_cutting_lemon_71
+  - first:
+      213: -3776038868400197889
+    second: ani_cutting_lemon_72
+  - first:
+      213: 1952565078759595706
+    second: ani_cutting_lemon_73
+  - first:
+      213: -7304694162375865962
+    second: ani_cutting_lemon_74
+  - first:
+      213: -6248182284818215148
+    second: ani_cutting_lemon_75
+  - first:
+      213: -1331653684504210223
+    second: ani_cutting_lemon_76
+  - first:
+      213: 541586234021479947
+    second: ani_cutting_lemon_77
+  - first:
+      213: -6853819451167903420
+    second: ani_cutting_lemon_78
+  - first:
+      213: 3090729018491091848
+    second: ani_cutting_lemon_79
+  - first:
+      213: -1506699305821952051
+    second: ani_cutting_lemon_80
+  - first:
+      213: -8752564909980358686
+    second: ani_cutting_lemon_81
+  - first:
+      213: -7371272501878937504
+    second: ani_cutting_lemon_82
+  - first:
+      213: 5844958327230096465
+    second: ani_cutting_lemon_83
+  - first:
+      213: 3370353844631012652
+    second: ani_cutting_lemon_84
+  - first:
+      213: 6561478277869055732
+    second: ani_cutting_lemon_85
+  - first:
+      213: -4605634842230689521
+    second: ani_cutting_lemon_86
+  - first:
+      213: 1402163973828034983
+    second: ani_cutting_lemon_87
+  - first:
+      213: -7917993240502394809
+    second: ani_cutting_lemon_88
+  - first:
+      213: -2343740274348719174
+    second: ani_cutting_lemon_89
+  - first:
+      213: 1946670543787507816
+    second: ani_cutting_lemon_90
+  - first:
+      213: 312861447902251038
+    second: ani_cutting_lemon_91
+  - first:
+      213: 2016536724168635707
+    second: ani_cutting_lemon_92
+  - first:
+      213: -3466913625025980380
+    second: ani_cutting_lemon_93
+  - first:
+      213: -5763653704243343095
+    second: ani_cutting_lemon_94
+  - first:
+      213: -2122738957206997370
+    second: ani_cutting_lemon_95
+  - first:
+      213: 8022310591443496655
+    second: ani_cutting_lemon_96
+  - first:
+      213: 2491132831224415704
+    second: ani_cutting_lemon_97
+  - first:
+      213: -6457659624893602034
+    second: ani_cutting_lemon_98
+  - first:
+      213: 6471066350628981236
+    second: ani_cutting_lemon_99
+  - first:
+      213: 5072986532172087651
+    second: ani_cutting_lemon_100
+  - first:
+      213: -3820396902562863484
+    second: ani_cutting_lemon_101
+  - first:
+      213: -1981823945113787334
+    second: ani_cutting_lemon_102
+  - first:
+      213: 198997020008333108
+    second: ani_cutting_lemon_103
+  - first:
+      213: 1046705153289028669
+    second: ani_cutting_lemon_104
+  - first:
+      213: -2844343497425178912
+    second: ani_cutting_lemon_105
+  - first:
+      213: 2908294054266412141
+    second: ani_cutting_lemon_106
+  - first:
+      213: 6450521475112904024
+    second: ani_cutting_lemon_107
+  - first:
+      213: 1804392938455983979
+    second: ani_cutting_lemon_108
+  - first:
+      213: -5619728810449964497
+    second: ani_cutting_lemon_109
+  - first:
+      213: -1394668667291879449
+    second: ani_cutting_lemon_110
+  - first:
+      213: 3688879532181970243
+    second: ani_cutting_lemon_111
+  - first:
+      213: 6755268541175569427
+    second: ani_cutting_lemon_112
+  - first:
+      213: 2224586246395128263
+    second: ani_cutting_lemon_113
+  - first:
+      213: -3322346304684018604
+    second: ani_cutting_lemon_114
+  - first:
+      213: -6107980708753425452
+    second: ani_cutting_lemon_115
+  - first:
+      213: 5744840470983739378
+    second: ani_cutting_lemon_116
+  - first:
+      213: -1988950212728307026
+    second: ani_cutting_lemon_117
+  - first:
+      213: 3033622174405820552
+    second: ani_cutting_lemon_118
+  - first:
+      213: 1984138632987870835
+    second: ani_cutting_lemon_119
+  - first:
+      213: -1949778921134923108
+    second: ani_cutting_lemon_120
+  - first:
+      213: -3348133932129067503
+    second: ani_cutting_lemon_121
+  - first:
+      213: 3683437631229209900
+    second: ani_cutting_lemon_122
+  - first:
+      213: 2683917380804137914
+    second: ani_cutting_lemon_123
+  - first:
+      213: 4278176891283345534
+    second: ani_cutting_lemon_124
+  - first:
+      213: 8402291426597938679
+    second: ani_cutting_lemon_125
+  - first:
+      213: 1864001748853784384
+    second: ani_cutting_lemon_126
+  - first:
+      213: -2624996865560114821
+    second: ani_cutting_lemon_127
+  - first:
+      213: 6644092543137510152
+    second: ani_cutting_lemon_128
+  - first:
+      213: 586835730195636902
+    second: ani_cutting_lemon_129
+  - first:
+      213: -4827788684472050366
+    second: ani_cutting_lemon_130
+  - first:
+      213: -6509135856289294735
+    second: ani_cutting_lemon_131
+  - first:
+      213: -721943620478137379
+    second: ani_cutting_lemon_132
+  - first:
+      213: -6358140362915953297
+    second: ani_cutting_lemon_133
+  - first:
+      213: -484860068653358067
+    second: ani_cutting_lemon_134
+  - first:
+      213: -5614114184235931289
+    second: ani_cutting_lemon_135
+  - first:
+      213: -1592857876436754687
+    second: ani_cutting_lemon_136
+  - first:
+      213: -13793945764002564
+    second: ani_cutting_lemon_137
+  - first:
+      213: -7709625922165399396
+    second: ani_cutting_lemon_138
+  - first:
+      213: -5683331498841464565
+    second: ani_cutting_lemon_139
+  - first:
+      213: -192790543094885985
+    second: ani_cutting_lemon_140
+  - first:
+      213: -6412576157418300669
+    second: ani_cutting_lemon_141
+  - first:
+      213: 7664619518302675980
+    second: ani_cutting_lemon_142
+  - first:
+      213: 1880508020212946255
+    second: ani_cutting_lemon_143
+  - first:
+      213: -5899779268105191953
+    second: ani_cutting_lemon_144
+  - first:
+      213: -3901989287590102940
+    second: ani_cutting_lemon_145
+  - first:
+      213: 7752307775246638210
+    second: ani_cutting_lemon_146
+  - first:
+      213: 6367687269084577310
+    second: ani_cutting_lemon_147
+  - first:
+      213: -308771458667893536
+    second: ani_cutting_lemon_148
+  - first:
+      213: 7245524528184576999
+    second: ani_cutting_lemon_149
+  - first:
+      213: -1362849361425547355
+    second: ani_cutting_lemon_150
+  - first:
+      213: 690894322818615115
+    second: ani_cutting_lemon_151
+  - first:
+      213: -5692894546391529884
+    second: ani_cutting_lemon_152
+  - first:
+      213: -4283924150156471875
+    second: ani_cutting_lemon_153
+  - first:
+      213: -2183941183279493705
+    second: ani_cutting_lemon_154
+  - first:
+      213: 7507977138613516313
+    second: ani_cutting_lemon_155
+  - first:
+      213: 1097086734886054977
+    second: ani_cutting_lemon_156
+  - first:
+      213: -3526753986161571725
+    second: ani_cutting_lemon_157
+  - first:
+      213: -113109969781292075
+    second: ani_cutting_lemon_158
+  - first:
+      213: -1080310586656731469
+    second: ani_cutting_lemon_159
+  - first:
+      213: 7514517976153586706
+    second: ani_cutting_lemon_160
+  - first:
+      213: -5782967052597867404
+    second: ani_cutting_lemon_161
+  - first:
+      213: 3615353173755868538
+    second: ani_cutting_lemon_162
+  - first:
+      213: -4201793412730945523
+    second: ani_cutting_lemon_163
+  - first:
+      213: -6939004525122560880
+    second: ani_cutting_lemon_164
+  - first:
+      213: 6215419862088040015
+    second: ani_cutting_lemon_165
+  - first:
+      213: -8520290017169415290
+    second: ani_cutting_lemon_166
+  - first:
+      213: -8571192655624527773
+    second: ani_cutting_lemon_167
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ani_cutting_lemon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25c8ecfc88fdaa00800000000000000
+      internalID: 769544395772445999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfab14c857db3a450800000000000000
+      internalID: 6098926632951724796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef092959434cecf0800000000000000
+      internalID: -221728299340460049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a21e5ade881e1c0800000000000000
+      internalID: -4476146000357938574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf8784967b3c6e90800000000000000
+      internalID: -7031179537748095031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21db72505a95ed760800000000000000
+      internalID: 7484518196027309330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f275267373cc60210800000000000000
+      internalID: 1298950080067426095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f01b63bb17334210800000000000000
+      internalID: 1315956108236099825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eef8c781d63dc230800000000000000
+      internalID: 3660642345676242659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493d95cf2b72cfc20800000000000000
+      internalID: 3241509481491321748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afcdbc550954f2e0800000000000000
+      internalID: -2092950047254786143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809b30c6e38d36ee0800000000000000
+      internalID: -1268932907376592632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c052e67fa0341160800000000000000
+      internalID: 6995269651385176258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d23be3d00ecff090800000000000000
+      internalID: -7998447910235983146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16496c71884d23320800000000000000
+      internalID: 2536323221142541409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_15
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca0cabc29668dca0800000000000000
+      internalID: -5991926523548136761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2394e96e95c5534d0800000000000000
+      internalID: -3155514422712186574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b466362d823844c90800000000000000
+      internalID: -7186474894024808885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ea729c062890380800000000000000
+      internalID: -9004522627747303792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55f256e2f0a341e0800000000000000
+      internalID: -2214749626629425828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80fef71c01472b50800000000000000
+      internalID: 6568290101741154446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_21
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0532e05b0f7cc4290800000000000000
+      internalID: -7904723409298382000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_22
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a35f3fb754532130800000000000000
+      internalID: 3540766467890828197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af53906ff44ce1a00800000000000000
+      internalID: 729236037389858298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ec0d25b5d9d41d0800000000000000
+      internalID: -3364860331018891765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf3c3827115b4cb0800000000000000
+      internalID: -4878716611424665678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00b64e78e72cb640800000000000000
+      internalID: 5096992757781016589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2d307c3be954150800000000000000
+      internalID: 5856261385440449191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cbdc6236d160db0800000000000000
+      internalID: -4826137638990922683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce029663ee27db4e0800000000000000
+      internalID: -1964287495023025940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_30
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f508cc298c3b30a70800000000000000
+      internalID: 8792068571595047007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_31
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf138fd06065f520800000000000000
+      internalID: 2735198317880483783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319d637df4f5d8a50800000000000000
+      internalID: 6524976231647467795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_33
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b022c5fa73c9360800000000000000
+      internalID: 7177673132426267473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4324b27d46d4f40800000000000000
+      internalID: 5714334377509532839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_35
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e3e9830fc767c40800000000000000
+      internalID: 5509728565318270529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_36
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9106e8067cdba50800000000000000
+      internalID: 6538601451531278790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_37
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96221e0eeb8b2850800000000000000
+      internalID: 6353325553890764446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_38
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21540e33e02cc620800000000000000
+      internalID: 2795645629060370732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_39
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20eedd65c08750430800000000000000
+      internalID: 3748534259248131586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274a76f5e1a20c680800000000000000
+      internalID: -8736936967160748942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_cutting_lemon_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65be12095b24f9490800000000000000
+      internalID: -7737392287224566954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -49,8 +49,8 @@ public class Slots : MonoBehaviour, IDropHandler
         {
             if (transform.childCount < 1)
             {
-                //GameObject Lemon = Resources.Load<GameObject>("Prefabs/Lemon");
-                //Instantiate<GameObject>(Lemon, this.transform);
+                GameObject Lemon = Resources.Load<GameObject>("Prefabs/Lemon");
+                Instantiate<GameObject>(Lemon, this.transform);
             }
         }
 
@@ -197,6 +197,11 @@ public class Slots : MonoBehaviour, IDropHandler
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("RunChop");
             }
+            else if (DragHandler.myItemBegingDragged.tag == "Lemon")
+            {
+                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                temp.SetTrigger("RunChop");
+            }
         }
 
         if (this.tag == "FryingpanOne")
@@ -240,6 +245,12 @@ public class Slots : MonoBehaviour, IDropHandler
         Debug.Log("Spawned");
         GameObject myOnionChop = Resources.Load<GameObject>("Prefabs/GreenOnionChopped");
         Instantiate<GameObject>(myOnionChop, this.transform);
+    }
+
+    public void SpawnChoppedLemon()
+    {
+        GameObject myLemonChopped = Resources.Load<GameObject>("Prefabs/LemonCut");
+        Instantiate<GameObject>(myLemonChopped, this.transform);
     }
 
     public void SpawnCookedEgg()

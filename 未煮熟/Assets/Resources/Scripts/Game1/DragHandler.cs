@@ -38,7 +38,13 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         GameObject.FindGameObjectWithTag("Cuttingboard").GetComponent<Slots>().SpawnChoppenGeenOnion();
         Destroy(this.gameObject);
     }
-    
+
+    public void SpawnLemon()
+    {
+        GameObject.FindGameObjectWithTag("Cuttingboard").GetComponent<Slots>().SpawnChoppedLemon();
+        Destroy(this.gameObject);
+    }
+
     public void SpawnCookedEgg()
     {
         Debug.Log("Spawn1");
