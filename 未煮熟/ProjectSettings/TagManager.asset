@@ -35,6 +35,9 @@ TagManager:
   - LemonCut
   - Clams
   - ClamCooked
+  - "Ris_\xE4gg"
+  - CustomerSlot
+  - ExitPoint
   layers:
   - Default
   - TransparentFX
