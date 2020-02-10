@@ -69,4 +69,6 @@ public class Timer : MonoBehaviour
             //  Handheld.Vibrate();
         }
     }
+        public float AccessMyElasped { get => myElapsedTime; set => myElapsedTime = value; }
 }
+
