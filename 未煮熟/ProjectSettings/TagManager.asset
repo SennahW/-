@@ -31,6 +31,10 @@ TagManager:
   - PotTwo
   - Rice
   - RiceCooked
+  - Lemon
+  - LemonCut
+  - Clams
+  - ClamCooked
   layers:
   - Default
   - TransparentFX
