@@ -7,11 +7,9 @@ public class Audio_Manager : MonoBehaviour
     public Sound[] mySounds;
 
     public static Audio_Manager myInstance;
-
+    
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);
-
         if(myInstance == null)
         {
             myInstance = this;
@@ -21,7 +19,8 @@ public class Audio_Manager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-            
+
+        DontDestroyOnLoad(gameObject);
 
         foreach (Sound s in mySounds)
         {
@@ -39,18 +38,64 @@ public class Audio_Manager : MonoBehaviour
         Play("Theme");
     }
 
+    void Update()
+    {
+        if (CostumerSpawning.CurrentCostumers > 6)
+        {
+            for (int i = 0; i < mySounds.Length; i++)
+            {
+                GetComponent<AudioSource>().pitch = 1.5f;
+            }
+        }
+        if (CostumerSpawning.CurrentCostumers == 5)
+        {
+            for (int i = 0; i < mySounds.Length; i++)
+            {
+                GetComponent<AudioSource>().pitch = 1.4f;
+            }
+        }
+        if (CostumerSpawning.CurrentCostumers == 4)
+        {
+            for (int i = 0; i < mySounds.Length; i++)
+            {
+                GetComponent<AudioSource>().pitch = 1.3f;
+            }
+        }
+        if (CostumerSpawning.CurrentCostumers == 3)
+        {
+            for (int i = 0; i < mySounds.Length; i++)
+            {
+                GetComponent<AudioSource>().pitch = 1.2f;
+            }
+        }
+        if (CostumerSpawning.CurrentCostumers == 2)
+        {
+            for (int i = 0; i < mySounds.Length; i++)
+            {
+                GetComponent<AudioSource>().pitch = 1.1f;
+            }
+        }
+        if (CostumerSpawning.CurrentCostumers == 1)
+        {
+            for (int i = 0; i < mySounds.Length; i++)
+            {
+                GetComponent<AudioSource>().pitch = 1f;
+            }
+        }
+
+        if (PauseMenu.GameIsPaused)
+        {
+            GetComponent<AudioSource>().pitch = 0f;
+        }
+    }
+
     public void Play (string myName)
     {
         Sound s = Array.Find(mySounds, sound => sound.name == myName);
-        if(s == null)
+        if (s == null)
         {
             Debug.LogWarning("Sound: " + name + " not found!");
             return;
-        }
-
-        if(PauseMenu.GameIsPaused)
-        {
-            s.mySource.pitch = 0f;
         }
 
         s.mySource.Play();
