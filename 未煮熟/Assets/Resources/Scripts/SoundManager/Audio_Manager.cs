@@ -82,6 +82,11 @@ public class Audio_Manager : MonoBehaviour
                 GetComponent<AudioSource>().pitch = 1f;
             }
         }
+
+        if (PauseMenu.GameIsPaused)
+        {
+            GetComponent<AudioSource>().pitch = 0f;
+        }
     }
 
     public void Play (string myName)
