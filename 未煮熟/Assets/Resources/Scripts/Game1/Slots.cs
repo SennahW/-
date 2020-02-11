@@ -170,8 +170,6 @@ public class Slots : MonoBehaviour, IDropHandler
                 LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
             }
         }
-
-        
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -236,6 +234,7 @@ public class Slots : MonoBehaviour, IDropHandler
                 temp.SetTrigger("CookClam");
             }
         }
+
         if (this.tag == "PotTwo")
         {
             if (DragHandler.myItemBegingDragged.tag == "Rice")
