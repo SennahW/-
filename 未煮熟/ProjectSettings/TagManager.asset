@@ -50,6 +50,8 @@ TagManager:
   - RiceCookedSpice
   - Customer
   - Gamemaster
+  - Background
+  - Button
   layers:
   - Default
   - TransparentFX
