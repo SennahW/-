@@ -73,16 +73,20 @@ public class Craft : MonoBehaviour
                                     }
                                 }
                             }
-                            
+                        
                         }
                         else if (gameObjectTwo.transform.GetChild(0).tag == "RiceCookedSpice")
                         {
-                            if (gameObjectFour.transform.GetChild(0).tag == "ClamsCooked")
+                            Debug.Log("piuefh");
+                            if (gameObjectThree.transform.GetChild(0).tag == "ClamCooked")
                             {
-                                if (gameObjectFive.transform.GetChild(0).tag == "ShrimpCooked")
+                                Debug.Log("ghGÅUOHgeåoEWIGH");
+                                if (gameObjectFour.transform.GetChild(0).tag == "ShrimpCooked")
                                 {
-                                    if (gameObjectSix.transform.GetChild(0).tag == "LemonChopped")
+                                    Debug.Log("IDOFSÅOIHGÅIOH");
+                                    if (gameObjectFive.transform.GetChild(0).tag == "LemonCut")
                                     {
+                                        Debug.Log("lofjopeuhfåoighG¨POJG¨+9UG");
                                         GameObject PaellaRice = Resources.Load<GameObject>("Prefabs/Ris_paella");
                                         Instantiate<GameObject>(PaellaRice, gameObjectOut.transform);
                                         DestroyImmediate(gameObjectOne.transform.GetChild(0).gameObject);
@@ -99,17 +103,16 @@ public class Craft : MonoBehaviour
                     
 
                 }
-            }
-        }
-        if (gameObject.transform.GetChild(0).tag == "RiceCooked")
-        {
-            Debug.Log("HAJSAN");
-            if (gameObjectTwo.transform.GetChild(0).tag == "Spice")
-            {
-                GameObject SpiceRice = Resources.Load<GameObject>("Prefabs/RiceCookedSpice");
-                Instantiate<GameObject>(SpiceRice, gameObjectOut.transform);
-                DestroyImmediate(gameObjectOne.transform.GetChild(0).gameObject);
-                DestroyImmediate(gameObjectTwo.transform.GetChild(0).gameObject);
+                if (gameObjectOne.transform.GetChild(0).tag == "RiceCooked")
+                {
+                    if (gameObjectTwo.transform.GetChild(0).tag == "Spice")
+                    {
+                        GameObject SpiceRice = Resources.Load<GameObject>("Prefabs/RiceCookedSpice");
+                        Instantiate<GameObject>(SpiceRice, gameObjectOut.transform);
+                        DestroyImmediate(gameObjectOne.transform.GetChild(0).gameObject);
+                        DestroyImmediate(gameObjectTwo.transform.GetChild(0).gameObject);
+                    }
+                }
             }
         }
     }

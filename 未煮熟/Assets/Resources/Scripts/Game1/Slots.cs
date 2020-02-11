@@ -76,8 +76,8 @@ public class Slots : MonoBehaviour, IDropHandler
         {
             if (transform.childCount < 1)
             {
-                //GameObject Clam = Resources.Load<GameObject>("Prefabs/Clam");
-                //Instantiate<GameObject>(Clam, this.transform);
+                GameObject Clam = Resources.Load<GameObject>("Prefabs/Clams");
+                Instantiate<GameObject>(Clam, this.transform);
             }
         }
 
@@ -276,7 +276,7 @@ public class Slots : MonoBehaviour, IDropHandler
             else if (DragHandler.myItemBegingDragged.tag == "Clams")
             {
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                temp.SetTrigger("CookClam");
+                temp.SetTrigger("CookClamTwo");
             }
         }
 
@@ -323,5 +323,11 @@ public class Slots : MonoBehaviour, IDropHandler
     {
         GameObject ShrimpCooked = Resources.Load<GameObject>("Prefabs/ShrimpCooked");
         Instantiate<GameObject>(ShrimpCooked, this.transform);
+    }
+
+    public void SpawnCookedClams()
+    {
+        GameObject ClamCooked = Resources.Load<GameObject>("Prefabs/ClamsCooked");
+        Instantiate<GameObject>(ClamCooked, this.transform);
     }
 }
