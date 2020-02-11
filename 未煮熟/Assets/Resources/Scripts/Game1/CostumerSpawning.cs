@@ -7,7 +7,7 @@ public class CostumerSpawning : MonoBehaviour
     public GameObject Spawn;
     public GameObject ObjectToSpawn;
     private Vector2 SpawnVector;
-    private int timer;
+    public static int timer;
     private int nextSpawn = 500;
     public static int CurrentCostumers;
 
