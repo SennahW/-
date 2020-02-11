@@ -59,6 +59,20 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         Destroy(this.gameObject);
     }
 
+    //public void SpawnCookekPorkOne()
+    //{
+    //    Debug.Log("Spawn1");
+    //    GameObject.FindGameObjectWithTag("FryingpanOne").GetComponent<Slots>().SpawnCookedPork();
+    //    Destroy(this.gameObject);
+    //}
+
+    //public void SpawnCookekPorkTwo()
+    //{
+    //    Debug.Log("Spawn1");
+    //    GameObject.FindGameObjectWithTag("FryingpanOne").GetComponent<Slots>().SpawnCookedPork();
+    //    Destroy(this.gameObject);
+    //}
+
     public void SpawnCookedRiceOne()
     {
         GameObject.FindGameObjectWithTag("PotOne").GetComponent<Slots>().SpawnCookedRice();
@@ -68,6 +82,18 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public void SpawnCookedRiceTwo()
     {
         GameObject.FindGameObjectWithTag("PotTwo").GetComponent<Slots>().SpawnCookedRice();
+        Destroy(this.gameObject);
+    }
+
+    public void SpawnCookedShrimpOne()
+    {
+        GameObject.FindGameObjectWithTag("FryingpanOne").GetComponent<Slots>().SpawnCookedShrimp();
+        Destroy(this.gameObject);
+    }
+
+    public void SpawnCookedShrimpTwo()
+    {
+        GameObject.FindGameObjectWithTag("FryingpanTwo").GetComponent<Slots>().SpawnCookedShrimp();
         Destroy(this.gameObject);
     }
 }

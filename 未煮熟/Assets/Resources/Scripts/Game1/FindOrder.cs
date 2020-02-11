@@ -4,33 +4,62 @@ using UnityEngine;
 
 public class FindOrder : MonoBehaviour
 {
-    public GameObject[] Food;
-    private static int maxnumbers = 4;
-    private static GameObject[] myFood = new GameObject[maxnumbers];
+    public int MaxOrder = 3;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        maxnumbers = Food.Length;
-        
+    }
 
-        for (int i = 0; i < Food.Length; i++)
+    public static string[] FoodOrder()
+    {
+        int myOrderLength = Random.Range(1, 3);
+        string[] myOrder = new string[ myOrderLength];
+
+        switch (myOrderLength)
         {
-            myFood[i] = Food[i];
+            case 1:
+                switch (Random.Range(1, 3))
+                {
+                    case 1:
+                        myOrder[0] = "Ris_ägg";
+                        break;  
+                    case 2:
+                        myOrder[0] = "Ris_ägg_pork";
+                        break;
+                    case 3:
+                        myOrder[0] = "Ris_paella";
+                        break;
+                }
+                break;
+
+            case 2:
+                switch (Random.Range(1, 3))
+                {
+                    case 1:
+                        myOrder[0] = "Ris_ägg";
+                        myOrder[1] = "Ris_ägg_pork";
+                        break;
+                    case 2:
+                        myOrder[0] = "Ris_ägg";
+                        myOrder[1] = "Ris_paella";
+                        break;
+                    case 3:
+                        myOrder[0] = "Ris_ägg_pork";
+                        myOrder[1] = "Ris_paella";
+                        break;
+                }
+                break;
+
+            case 3:
+                myOrder[0] = "Ris_ägg";
+                myOrder[1] = "Ris_ägg_pork";
+                myOrder[2] = "Ris_paella";
+                break;
         }
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public static GameObject FoodOrdered()
-    {
-        int foodItem = Random.Range(0, maxnumbers);
-
-        return myFood[foodItem];
+        return myOrder;
     }
 
 }

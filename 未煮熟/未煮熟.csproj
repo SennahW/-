@@ -619,16 +619,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Resources\Scripts\Game1\CostumerSpawning.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\Craft.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\DragHandler.cs" />
-    <Compile Include="Assets\Resources\Scripts\Game1\FindCostumerSpot.cs" />
-    <Compile Include="Assets\Resources\Scripts\Game1\FindOrder.cs" />
-    <Compile Include="Assets\Resources\Scripts\Game1\Game0ver.cs" />
-    <Compile Include="Assets\Resources\Scripts\Game1\GiveMoney.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\PauseMenu.cs" />
-    <Compile Include="Assets\Resources\Scripts\Game1\PersonCode.cs" />
-    <Compile Include="Assets\Resources\Scripts\Game1\PersonExiting.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\PickedUppSpriteScript.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\Slots.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\SpawnChopped.cs" />
