@@ -550,7 +550,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
-      Hash: 6fe899826973989f975a18df662fe95d
+      Hash: 8de524dd0e91f573d85fb12d047f9b35
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PauseMenu
@@ -1058,4 +1058,4 @@ ScriptsOnlyBuild:
   - Assets/Resources/Scenes/Recipes.unity
   - Assets/Resources/Scenes/Game1.unity
   - Assets/Resources/Scenes/GameOver.unity
-  playerPath: C:/Users/wilhem.pantzar/Documents/Test/Undercooked.exe
+  playerPath: C:/Users/wilhem.pantzar/Documents/test/Undercooked.exe

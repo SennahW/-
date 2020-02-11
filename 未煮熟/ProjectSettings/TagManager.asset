@@ -48,6 +48,8 @@ TagManager:
   - Spice
   - SpiceStorage
   - RiceCookedSpice
+  - Background
+  - Button
   layers:
   - Default
   - TransparentFX
