@@ -1,0 +1,1 @@
+﻿using UnityEngine; public class AnimationHelper : MonoBehaviour{public void TimerFinished(){transform.parent.GetComponent<PersonCode>().TimerFinished();}}

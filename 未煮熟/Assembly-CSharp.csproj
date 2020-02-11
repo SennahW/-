@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Resources\Scripts\Game1\AnimationHelper.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\CostumerSpawning.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\Craft.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\DragHandler.cs" />

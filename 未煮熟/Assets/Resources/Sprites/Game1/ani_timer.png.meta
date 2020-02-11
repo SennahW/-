@@ -1,0 +1,625 @@
+fileFormatVersion: 2
+guid: 230eb1d55a5a17a40967bed1a663135f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1084744375324539839
+    second: ani_timer_0
+  - first:
+      213: -9093285201725056703
+    second: ani_timer_1
+  - first:
+      213: -3888553596773748403
+    second: ani_timer_2
+  - first:
+      213: -1093946211194870259
+    second: ani_timer_3
+  - first:
+      213: 7505364744948765772
+    second: ani_timer_4
+  - first:
+      213: -6335671938162250326
+    second: ani_timer_5
+  - first:
+      213: -876927750828581286
+    second: ani_timer_6
+  - first:
+      213: 7047489371559425370
+    second: ani_timer_7
+  - first:
+      213: 4692125246029026804
+    second: ani_timer_8
+  - first:
+      213: 2195202205926283493
+    second: ani_timer_9
+  - first:
+      213: 1848658584640840058
+    second: ani_timer_10
+  - first:
+      213: -5491363658115060772
+    second: ani_timer_11
+  - first:
+      213: 5731855573924110098
+    second: ani_timer_12
+  - first:
+      213: 6283721079930344130
+    second: ani_timer_13
+  - first:
+      213: 2568947528250371197
+    second: ani_timer_14
+  - first:
+      213: 7891433842226102191
+    second: ani_timer_15
+  - first:
+      213: 4891634357668506350
+    second: ani_timer_16
+  - first:
+      213: -2652340876438439765
+    second: ani_timer_17
+  - first:
+      213: 8415044529764868011
+    second: ani_timer_18
+  - first:
+      213: -2759587204196182308
+    second: ani_timer_19
+  - first:
+      213: -7361900554286556585
+    second: ani_timer_20
+  - first:
+      213: -7224294025698028794
+    second: ani_timer_21
+  - first:
+      213: -6130011650438752675
+    second: ani_timer_22
+  - first:
+      213: 7156821818616392932
+    second: ani_timer_23
+  - first:
+      213: -5317481235479601199
+    second: ani_timer_24
+  - first:
+      213: -5818079181982894979
+    second: ani_timer_25
+  - first:
+      213: -8649363964823189335
+    second: ani_timer_26
+  - first:
+      213: -1602523921319487755
+    second: ani_timer_27
+  - first:
+      213: -3146957285177742393
+    second: ani_timer_28
+  - first:
+      213: 3886865646205405295
+    second: ani_timer_29
+  - first:
+      213: 3287391856021052747
+    second: ani_timer_30
+  - first:
+      213: 3165782885043351222
+    second: ani_timer_31
+  - first:
+      213: 2405002035309589334
+    second: ani_timer_32
+  - first:
+      213: 5260896175134613966
+    second: ani_timer_33
+  - first:
+      213: 6360149557652880536
+    second: ani_timer_34
+  - first:
+      213: 2233392142149867871
+    second: ani_timer_35
+  - first:
+      213: -8604550354824139839
+    second: ani_timer_36
+  - first:
+      213: 2449857285369555357
+    second: ani_timer_37
+  - first:
+      213: 5661600493146470577
+    second: ani_timer_38
+  - first:
+      213: -1161915976136959053
+    second: ani_timer_39
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ani_timer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1448da4ecb632f0f0800000000000000
+      internalID: -1084744375324539839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1499cdd89492ec180800000000000000
+      internalID: -9093285201725056703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41bb3e2b15190ac0800000000000000
+      internalID: -3888553596773748403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 448
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06685687b581d0f0800000000000000
+      internalID: -1093946211194870259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44596c6879682860800000000000000
+      internalID: 7505364744948765772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadad68a0fb2318a0800000000000000
+      internalID: -6335671938162250326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e1e265bd684d3f0800000000000000
+      internalID: -876927750828581286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55f3268e36bdc160800000000000000
+      internalID: 7047489371559425370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5d3332d07cd1140800000000000000
+      internalID: 4692125246029026804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8d36e86cce67e10800000000000000
+      internalID: 2195202205926283493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a716e782031c7a910800000000000000
+      internalID: 1848658584640840058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbef81f8d1cac3b0800000000000000
+      internalID: -5491363658115060772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fd69b9644ab8f40800000000000000
+      internalID: 5731855573924110098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2d1e49703443750800000000000000
+      internalID: 6283721079930344130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c2bf38a2cb6a320800000000000000
+      internalID: 2568947528250371197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faff166d441048d60800000000000000
+      internalID: 7891433842226102191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea6de3088392e340800000000000000
+      internalID: 4891634357668506350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ani_timer_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba873ac860ef03bd0800000000000000
+      internalID: -2652340876438439765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

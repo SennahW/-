@@ -48,6 +48,8 @@ TagManager:
   - Spice
   - SpiceStorage
   - RiceCookedSpice
+  - Customer
+  - Gamemaster
   - Background
   - Button
   layers:
