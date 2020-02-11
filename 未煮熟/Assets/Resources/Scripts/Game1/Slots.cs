@@ -67,8 +67,8 @@ public class Slots : MonoBehaviour, IDropHandler
         {
             if (transform.childCount < 1)
             {
-                //GameObject Shrimp = Resources.Load<GameObject>("Prefabs/Shrimp");
-                //Instantiate<GameObject>(Shrimp, this.transform);
+                GameObject Shrimp = Resources.Load<GameObject>("Prefabs/Shrimp");
+                Instantiate<GameObject>(Shrimp, this.transform);
             }
         }
 
@@ -85,8 +85,8 @@ public class Slots : MonoBehaviour, IDropHandler
         {
             if (transform.childCount < 1)
             {
-                //GameObject Pork = Resources.Load<GameObject>("Prefabs/Pork");
-                //Instantiate<GameObject>(Pork, this.transform);
+                GameObject Pork = Resources.Load<GameObject>("Prefabs/Pork");
+                Instantiate<GameObject>(Pork, this.transform);
             }
         }
 
@@ -95,6 +95,14 @@ public class Slots : MonoBehaviour, IDropHandler
             if (transform.childCount < 1)
             {
                 GameObject GreenOnion = Resources.Load<GameObject>("Prefabs/GreenOnion");
+                Instantiate<GameObject>(GreenOnion, this.transform);
+            }
+        }
+        if (this.tag == "SpiceStorage")
+        {
+            if (transform.childCount < 1)
+            {
+                GameObject GreenOnion = Resources.Load<GameObject>("Prefabs/Spice");
                 Instantiate<GameObject>(GreenOnion, this.transform);
             }
         }
@@ -160,7 +168,6 @@ public class Slots : MonoBehaviour, IDropHandler
                 if (transform.GetChild(0).tag == "RiceCooked")
                 {
                     GetComponent<GridLayoutGroup>().padding.top = -30;
-                    Debug.Log(GetComponent<GridLayoutGroup>().padding);
                     LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
                 }
             }
@@ -211,13 +218,38 @@ public class Slots : MonoBehaviour, IDropHandler
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookEgg");
             }
+            if (DragHandler.myItemBegingDragged.tag == "Pork")
+            {
+                //var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                //temp.SetTrigger("CookEgg");
+                SpawnCookedPork();
+                DestroyImmediate(DragHandler.myItemBegingDragged);
+            }
+            if (DragHandler.myItemBegingDragged.tag == "Shrimp")
+            {
+                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                temp.SetTrigger("CookShrimpOne");
+            }
         }
+        //
         if (this.tag == "FryingpanTwo")
         {
             if (DragHandler.myItemBegingDragged.tag == "Egg")
             {
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookEggTwo");
+            }
+            if (DragHandler.myItemBegingDragged.tag == "Pork")
+            {
+                //var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                //temp.SetTrigger("CookEgg");
+                SpawnCookedPork();
+                DestroyImmediate(DragHandler.myItemBegingDragged);
+            }
+            if (DragHandler.myItemBegingDragged.tag == "Shrimp")
+            {
+                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                temp.SetTrigger("CookShrimpTwo");
             }
         }
 
@@ -234,7 +266,6 @@ public class Slots : MonoBehaviour, IDropHandler
                 temp.SetTrigger("CookClam");
             }
         }
-
         if (this.tag == "PotTwo")
         {
             if (DragHandler.myItemBegingDragged.tag == "Rice")
@@ -247,6 +278,12 @@ public class Slots : MonoBehaviour, IDropHandler
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookClam");
             }
+        }
+
+
+        if (tag == "Trash")
+        {
+            DestroyImmediate(DragHandler.myItemBegingDragged);
         }
     }
 
@@ -274,5 +311,17 @@ public class Slots : MonoBehaviour, IDropHandler
     {
         GameObject RiceCooked = Resources.Load<GameObject>("Prefabs/RiceCooked");
         Instantiate<GameObject>(RiceCooked, this.transform);
+    }
+
+    public void SpawnCookedPork()
+    {
+        GameObject PorkCooked = Resources.Load<GameObject>("Prefabs/PorkCooked");
+        Instantiate<GameObject>(PorkCooked, this.transform);
+    }
+
+    public void SpawnCookedShrimp()
+    {
+        GameObject ShrimpCooked = Resources.Load<GameObject>("Prefabs/ShrimpCooked");
+        Instantiate<GameObject>(ShrimpCooked, this.transform);
     }
 }

@@ -35,6 +35,19 @@ TagManager:
   - LemonCut
   - Clams
   - ClamCooked
+  - "Ris_\xE4gg"
+  - CustomerSlot
+  - ExitPoint
+  - Pork
+  - PorkCooked
+  - "Ris_\xE4gg_pork"
+  - Trash
+  - Ris_paella
+  - Shrimp
+  - ShrimpCooked
+  - Spice
+  - SpiceStorage
+  - RiceCookedSpice
   layers:
   - Default
   - TransparentFX
