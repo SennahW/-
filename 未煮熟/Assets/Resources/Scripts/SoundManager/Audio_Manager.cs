@@ -10,7 +10,7 @@ public class Audio_Manager : MonoBehaviour
     
     void Awake()
     {
-        if(myInstance == null)
+        if (myInstance == null)
         {
             myInstance = this;
         }
@@ -87,6 +87,7 @@ public class Audio_Manager : MonoBehaviour
         {
             GetComponent<AudioSource>().pitch = 0f;
         }
+
     }
 
     public void Play (string myName)
