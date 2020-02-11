@@ -155,8 +155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417, y: 306}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -376.8, y: 305}
+  m_SizeDelta: {x: 240.41, y: 45.123}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &66088212
 MonoBehaviour:
@@ -189,7 +189,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score: '
+  m_Text: 'Score: 0
+
+'
 --- !u!222 &66088213
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7863,6 +7865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d138b251ab2a3a4f86309e0ea3580d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mySounds: []
   myPauseMenuUI: {fileID: 1615166368}
 --- !u!114 &2071959959
 MonoBehaviour:
