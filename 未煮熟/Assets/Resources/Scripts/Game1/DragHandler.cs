@@ -96,4 +96,16 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         GameObject.FindGameObjectWithTag("FryingpanTwo").GetComponent<Slots>().SpawnCookedShrimp();
         Destroy(this.gameObject);
     }
+
+    public void SpawnCookedClamOne()
+    {
+        GameObject.FindGameObjectWithTag("PotOne").GetComponent<Slots>().SpawnCookedClams();
+        Destroy(this.gameObject);
+    }
+
+    public void SpawnCookedClamTwo()
+    {
+        GameObject.FindGameObjectWithTag("PotTwo").GetComponent<Slots>().SpawnCookedClams();
+        Destroy(this.gameObject);
+    }
 }
