@@ -1,45 +1,36 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 using System;
-using UnityEngine.UI;
+using TMPro;
 
 public class GiveMoney : MonoBehaviour
 {
     public float myMoney;
-    public Text myScore;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public TextMeshProUGUI myScoreText;
 
     // Update is called once per frame
     void Update()
     {
-        
+        string tempMoneyString = "Score: " + myMoney.ToString();
+        myScoreText.text = tempMoneyString;
     }
 
-    public void CostumerMoney()
+    public void CostumerMoney(float aTimerValue)
     {
         float tempMoney;
-
-        if (GetComponent<Timer>().AccessMyElasped > 25)
+        if (aTimerValue > 25)
         {
             tempMoney = 100;
             myMoney += tempMoney;
         }
-        else if (GetComponent<Timer>().AccessMyElasped > 25)
+        else if (aTimerValue > 25)
         {
-            tempMoney = 25 * ((25 / GetComponent<Timer>().AccessMyElasped) + 1);
+            tempMoney = 25 * ((25 / aTimerValue) + 1);
 
             myMoney += tempMoney;
         }
         int rounded = (int)Math.Round(myMoney, 0);
         myMoney = rounded;
-        string myMoneyText = myMoney.ToString();
-        myScore.text = "Score: " + myMoneyText;
     }
 
 }

@@ -15,6 +15,8 @@ public class Timer : MonoBehaviour
     float myTimerLength = 120;
     float myElapsedTimeFloat;
 
+    public Animator myAnimatordsds;
+
     void Awake()
     {
         
@@ -25,6 +27,9 @@ public class Timer : MonoBehaviour
     {
         myTimeText.text = "Time: 00:00:00";
         myTimerActive = true;
+        if (this.gameObject.tag == "Customer")
+        {
+        }
     }
 
     void StartTimer () 
@@ -71,4 +76,3 @@ public class Timer : MonoBehaviour
     }
         public float AccessMyElasped { get => myElapsedTime; set => myElapsedTime = value; }
 }
-
