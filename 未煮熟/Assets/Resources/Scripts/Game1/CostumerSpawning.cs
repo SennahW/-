@@ -20,7 +20,7 @@ public class CostumerSpawning : MonoBehaviour
 
         if (timer >= nextSpawn && CurrentCostumers < 5)
         {
-            nextSpawn = Random.Range(1000, 3000);
+            nextSpawn = Random.Range(2500, 9000);
             playSound();
             Instantiate(ObjectToSpawn, Spawn.transform);
             CurrentCostumers++;
