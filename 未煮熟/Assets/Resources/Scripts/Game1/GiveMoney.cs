@@ -11,7 +11,7 @@ public class GiveMoney : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        string tempMoneyString = "Score: " + myMoney.ToString();
+        string tempMoneyString = myMoney.ToString();
         myScoreText.text = tempMoneyString;
     }
 
