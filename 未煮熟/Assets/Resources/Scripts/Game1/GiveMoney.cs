@@ -2,6 +2,7 @@
 using UnityEngine;
 using System;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GiveMoney : MonoBehaviour
 {
@@ -32,5 +33,4 @@ public class GiveMoney : MonoBehaviour
         int rounded = (int)Math.Round(myMoney, 0);
         myMoney = rounded;
     }
-
 }
