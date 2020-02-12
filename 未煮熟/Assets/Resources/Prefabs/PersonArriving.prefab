@@ -466,6 +466,7 @@ MonoBehaviour:
   SlotThree: {fileID: 2478674022486717030}
   Timer: {fileID: 4221070874653705945}
   OrderFinished: 0
+  TimerFinshed: 0
   myAnimator: {fileID: 0}
 --- !u!222 &8548715221582848721
 CanvasRenderer:

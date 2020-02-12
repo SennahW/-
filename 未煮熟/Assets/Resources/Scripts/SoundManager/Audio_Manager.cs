@@ -40,46 +40,46 @@ public class Audio_Manager : MonoBehaviour
 
     void Update()
     {
-        if (CostumerSpawning.CurrentCostumers > 6)
+        if (CostumerSpawning.CurrentCostumers == 1)
+        {
+            for (int i = 0; i < mySounds.Length; i++)
+            {
+                GetComponent<AudioSource>().pitch = 1f;
+            }
+        }
+        else if (CostumerSpawning.CurrentCostumers > 6)
         {
             for (int i = 0; i < mySounds.Length; i++)
             {
                 GetComponent<AudioSource>().pitch = 1.5f;
             }
         }
-        if (CostumerSpawning.CurrentCostumers == 5)
+        else if (CostumerSpawning.CurrentCostumers == 5)
         {
             for (int i = 0; i < mySounds.Length; i++)
             {
                 GetComponent<AudioSource>().pitch = 1.4f;
             }
         }
-        if (CostumerSpawning.CurrentCostumers == 4)
+        else if (CostumerSpawning.CurrentCostumers == 4)
         {
             for (int i = 0; i < mySounds.Length; i++)
             {
                 GetComponent<AudioSource>().pitch = 1.3f;
             }
         }
-        if (CostumerSpawning.CurrentCostumers == 3)
+        else if (CostumerSpawning.CurrentCostumers == 3)
         {
             for (int i = 0; i < mySounds.Length; i++)
             {
                 GetComponent<AudioSource>().pitch = 1.2f;
             }
         }
-        if (CostumerSpawning.CurrentCostumers == 2)
+        else if (CostumerSpawning.CurrentCostumers == 2)
         {
             for (int i = 0; i < mySounds.Length; i++)
             {
                 GetComponent<AudioSource>().pitch = 1.1f;
-            }
-        }
-        if (CostumerSpawning.CurrentCostumers == 1)
-        {
-            for (int i = 0; i < mySounds.Length; i++)
-            {
-                GetComponent<AudioSource>().pitch = 1f;
             }
         }
 
@@ -98,7 +98,6 @@ public class Audio_Manager : MonoBehaviour
             Debug.LogWarning("Sound: " + name + " not found!");
             return;
         }
-
         s.mySource.Play();
     }
 

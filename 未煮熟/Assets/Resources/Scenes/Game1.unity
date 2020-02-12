@@ -746,7 +746,7 @@ PrefabInstance:
         type: 3}
       propertyPath: mySounds.Array.data[0].myClip
       value: 
-      objectReference: {fileID: 8300000, guid: cfeb22762598f1747aea869e91de1087, type: 3}
+      objectReference: {fileID: 8300000, guid: d44a5d71f33157548943efdd97762216, type: 3}
     - target: {fileID: 7884819199963595305, guid: 935c8b600e0a00448b0668cc791ae176,
         type: 3}
       propertyPath: mySounds.Array.data[0].name
@@ -1085,7 +1085,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211104981}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 290.7, y: 375.8, z: 0}
+  m_LocalPosition: {x: 290.7, y: 475, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1803353146}
@@ -3112,7 +3112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751873742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1618, y: 500, z: 0}
+  m_LocalPosition: {x: 1800, y: 500, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 934058156}
@@ -3729,7 +3729,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961717633}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 400, y: 500, z: 0}
+  m_LocalPosition: {x: 600, y: 500, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 934058156}
@@ -3800,7 +3800,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059891325}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 869, y: 500, z: 0}
+  m_LocalPosition: {x: 1000, y: 500, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 934058156}
@@ -3830,7 +3830,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079142797}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 288.9, y: 375.4, z: 0}
+  m_LocalPosition: {x: 288.9, y: 473, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1803353146}
@@ -6295,7 +6295,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512462988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1064, y: 500, z: 0}
+  m_LocalPosition: {x: 1400, y: 500, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 934058156}
@@ -7854,7 +7854,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801037720}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 169, y: 500, z: 0}
+  m_LocalPosition: {x: 250, y: 500, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 934058156}
@@ -7924,7 +7924,7 @@ MonoBehaviour:
   Spawn: {fileID: 211104981}
   ObjectToSpawn: {fileID: 5542143576579855046, guid: e572a17ba7d139b4891283c1e3f55cc4,
     type: 3}
-  DoorChime: {fileID: 8300000, guid: 6a3fb4dcace135d43b2b61c153e91acc, type: 3}
+  DoorChime: {fileID: 8300000, guid: 54971d7ad0b2b274580aaf1db71d4d9b, type: 3}
 --- !u!4 &1803353146
 Transform:
   m_ObjectHideFlags: 0
