@@ -20,7 +20,10 @@ public class PauseMenu : MonoBehaviour
             SceneManager.LoadScene(0);
         }
 
-        //mySource.Play();
+        if(Input.GetKeyDown(KeyCode.G))
+        {
+            SceneManager.LoadScene(3);
+        }
     }
 
     public void ResumeGame()

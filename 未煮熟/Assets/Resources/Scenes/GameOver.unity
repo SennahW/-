@@ -433,7 +433,7 @@ MonoBehaviour:
   mySounds:
   - name: Game Over
     myClip: {fileID: 8300000, guid: e086a73dc58ff2d4eb0485ac8dc579ef, type: 3}
-    myVolume: 1
+    myVolume: 2
     myPitch: 1
     myLoop: 1
     mySource: {fileID: 0}
