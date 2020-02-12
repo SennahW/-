@@ -107,76 +107,76 @@ public class Slots : MonoBehaviour, IDropHandler
             }
         }
 
-        if (tag == "FryingpanOne")
-        {
-            if (transform.childCount > 0)
-            {
-                if (transform.GetChild(0).tag == "EggCooked" && GetComponent<GridLayoutGroup>().padding.top != 10)
-                {
-                    GetComponent<GridLayoutGroup>().padding.top = -10;
-                    Debug.Log(GetComponent<GridLayoutGroup>().padding);
-                    LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-                }
-            }
-            else
-            {
-                GetComponent<GridLayoutGroup>().padding.top = 0;
-                LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-            }
-        }
-        if (tag == "FryingpanTwo")
-        {
+        //if (tag == "FryingpanOne")
+        //{
+        //    if (transform.childCount > 0)
+        //    {
+        //        if (transform.GetChild(0).tag == "EggCooked" && GetComponent<GridLayoutGroup>().padding.top != 10)
+        //        {
+        //            GetComponent<GridLayoutGroup>().padding.top = -10;
+        //            Debug.Log(GetComponent<GridLayoutGroup>().padding);
+        //            LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+        //        }
+        //    }
+        //    else
+        //    {
+        //        GetComponent<GridLayoutGroup>().padding.top = 0;
+        //        LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+        //    }
+        //}
+        //if (tag == "FryingpanTwo")
+        //{
 
-            if (transform.childCount > 0)
-            {
-                if (transform.GetChild(0).tag == "EggCooked")
-                {
-                    GetComponent<GridLayoutGroup>().padding.top = 20;
-                    Debug.Log(GetComponent<GridLayoutGroup>().padding);
-                    LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-                }
-            }
-            else
-            {
-                GetComponent<GridLayoutGroup>().padding.top = 0;
-                LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-            }
-        }
-        if (tag == "PotOne")
-        {
+        //    if (transform.childCount > 0)
+        //    {
+        //        if (transform.GetChild(0).tag == "EggCooked")
+        //        {
+        //            GetComponent<GridLayoutGroup>().padding.top = 20;
+        //            Debug.Log(GetComponent<GridLayoutGroup>().padding);
+        //            LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+        //        }
+        //    }
+        //    else
+        //    {
+        //        GetComponent<GridLayoutGroup>().padding.top = 0;
+        //        LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+        //    }
+        //}
+        //if (tag == "PotOne")
+        //{
 
-            if (transform.childCount > 0)
-            {
-                if (transform.GetChild(0).tag == "RiceCooked")
-                {
-                    GetComponent<GridLayoutGroup>().padding.top = -30;
-                    Debug.Log(GetComponent<GridLayoutGroup>().padding);
-                    LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-                }
-            }
-            else
-            {
-                GetComponent<GridLayoutGroup>().padding.top = 0;
-                LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-            }
-        }
-        if (tag == "PotTwo")
-        {
+        //    if (transform.childCount > 0)
+        //    {
+        //        if (transform.GetChild(0).tag == "RiceCooked")
+        //        {
+        //            GetComponent<GridLayoutGroup>().padding.top = -30;
+        //            Debug.Log(GetComponent<GridLayoutGroup>().padding);
+        //            LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+        //        }
+        //    }
+        //    else
+        //    {
+        //        GetComponent<GridLayoutGroup>().padding.top = 0;
+        //        LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+        //    }
+        //}
+        //if (tag == "PotTwo")
+        //{
 
-            if (transform.childCount > 0)
-            {
-                if (transform.GetChild(0).tag == "RiceCooked")
-                {
-                    GetComponent<GridLayoutGroup>().padding.top = -30;
-                    LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-                }
-            }
-            else
-            {
-                GetComponent<GridLayoutGroup>().padding.top = 0;
-                LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-            }
-        }
+        //    if (transform.childCount > 0)
+        //    {
+        //        if (transform.GetChild(0).tag == "RiceCooked")
+        //        {
+        //            GetComponent<GridLayoutGroup>().padding.top = -30;
+        //            LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+        //        }
+        //    }
+        //    else
+        //    {
+        //        GetComponent<GridLayoutGroup>().padding.top = 0;
+        //        LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
+        //    }
+        //}
     }
 
     public void OnDrop(PointerEventData eventData)
