@@ -13,7 +13,6 @@ ScriptsOnlyBuild:
     - FindOrder
     - GameOver
     - GiveMoney
-    - Lifes
     - PauseMenu
     - PersonCode
     - PickedUppSpriteScript
@@ -1009,12 +1008,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
-  - hash:
-      serializedVersion: 2
-      Hash: 875cda7e0aac824b84419bc271482b7f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Lifes
   - hash:
       serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
