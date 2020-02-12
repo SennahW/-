@@ -70,6 +70,7 @@
     <Compile Include="Assets\Resources\Scripts\Game1\FindOrder.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\Game0ver.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\GiveMoney.cs" />
+    <Compile Include="Assets\Resources\Scripts\Game1\Lifes.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\PauseMenu.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\PersonCode.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\PickedUppSpriteScript.cs" />
