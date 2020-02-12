@@ -913,7 +913,7 @@ PrefabInstance:
         type: 3}
       propertyPath: mySounds.Array.data[0].myClip
       value: 
-      objectReference: {fileID: 8300000, guid: cfeb22762598f1747aea869e91de1087, type: 3}
+      objectReference: {fileID: 8300000, guid: d44a5d71f33157548943efdd97762216, type: 3}
     - target: {fileID: 7884819199963595305, guid: 935c8b600e0a00448b0668cc791ae176,
         type: 3}
       propertyPath: mySounds.Array.data[0].myVolume
