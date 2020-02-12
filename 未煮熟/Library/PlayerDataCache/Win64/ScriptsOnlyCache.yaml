@@ -12,7 +12,6 @@ ScriptsOnlyBuild:
     - Game0ver
     - GameOver
     - GiveMoney
-    - Lifes
     - PauseMenu
     - PersonCode
     - PickedUppSpriteScript
@@ -121,9 +120,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12850}
     - Class: 114
-      Script: {instanceID: 13146}
-    - Class: 114
-      Script: {instanceID: 13206}
+      Script: {instanceID: 13204}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -170,7 +167,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12792}
     - Class: 114
-      Script: {instanceID: 13206}
+      Script: {instanceID: 13204}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -263,9 +260,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13094}
     - Class: 114
-      Script: {instanceID: 13206}
+      Script: {instanceID: 13204}
     - Class: 114
-      Script: {instanceID: 13240}
+      Script: {instanceID: 13238}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -314,7 +311,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13106}
     - Class: 114
-      Script: {instanceID: 13206}
+      Script: {instanceID: 13204}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -996,12 +993,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
-  - hash:
-      serializedVersion: 2
-      Hash: 875cda7e0aac824b84419bc271482b7f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Lifes
   - hash:
       serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e

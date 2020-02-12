@@ -356,7 +356,7 @@ MonoBehaviour:
   Spawn: {fileID: 719811119}
   ObjectToSpawn: {fileID: 5542143576579855046, guid: e572a17ba7d139b4891283c1e3f55cc4,
     type: 3}
-  DoorChime: {fileID: 8300000, guid: 6a3fb4dcace135d43b2b61c153e91acc, type: 3}
+  DoorChime: {fileID: 8300000, guid: 54971d7ad0b2b274580aaf1db71d4d9b, type: 3}
 --- !u!1 &110274920
 GameObject:
   m_ObjectHideFlags: 0
