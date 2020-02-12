@@ -52,6 +52,9 @@ TagManager:
   - Gamemaster
   - Background
   - Button
+  - LifeOne
+  - LifeTwo
+  - LifeThree
   layers:
   - Default
   - TransparentFX

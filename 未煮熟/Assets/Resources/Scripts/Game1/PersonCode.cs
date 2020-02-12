@@ -93,9 +93,10 @@ public class PersonCode : MonoBehaviour
 
         if (position.x.Between(myTargetPos.x, 0.5f) && position.y.Between(myTargetPos.y, 0.5f) && OrderFinished == false && TimerFinshed == true)
         {
+            GameObject.FindGameObjectWithTag("Gamemaster").GetComponent<Lifes>().RemoveLife();
             CostumerSpawning.timer = 450;
-            CostumerSpawning.CurrentCostumers--;
             FindCostumerSpot.AvailableSpots[SeatTaken] = 0;
+            CostumerSpawning.CurrentCostumers--;
             Destroy(this.gameObject);
         }
 
@@ -103,7 +104,6 @@ public class PersonCode : MonoBehaviour
         if (OrderFinished == true)
         {
             FindCostumerSpot.AvailableSpots[SeatTaken] = 0;
-
             myTargetPos = GameObject.FindGameObjectWithTag("ExitPoint").transform.position;
             //Destroy(SlotOne);
             //Destroy(SlotTwo);
