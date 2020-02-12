@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class ButtonHandler : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class ButtonHandler : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-    
+
     public void QuitGame()
     {
         Application.Quit();

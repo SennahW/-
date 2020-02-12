@@ -32,6 +32,7 @@ public class PersonCode : MonoBehaviour
     public GameObject SlotThree;
     public GameObject Timer;
     public bool OrderFinished;
+    public bool TimerFinshed;
 
     float myElapsedTime;
 
@@ -90,10 +91,14 @@ public class PersonCode : MonoBehaviour
             Slots.SetActive(false);
         }
 
-        if (Pos == myTargetPos && OrderFinished == true)
+        if (position.x.Between(myTargetPos.x, 0.5f) && position.y.Between(myTargetPos.y, 0.5f) && OrderFinished == false && TimerFinshed == true)
         {
-            Destroy(gameObject);
+            CostumerSpawning.timer = 450;
+            CostumerSpawning.CurrentCostumers--;
+            FindCostumerSpot.AvailableSpots[SeatTaken] = 0;
+            Destroy(this.gameObject);
         }
+
 
         if (OrderFinished == true)
         {
@@ -171,7 +176,7 @@ public class PersonCode : MonoBehaviour
     {
         FindCostumerSpot.AvailableSpots[SeatTaken] = 0;
         myTargetPos = GameObject.FindGameObjectWithTag("ExitPoint").transform.position;
-
         GameObject.FindGameObjectWithTag("Gamemaster").GetComponent<GiveMoney>().CostumerMoney(myElapsedTime);
+        TimerFinshed = true;
     }
 }
