@@ -1990,7 +1990,7 @@ MonoBehaviour:
   myWantedItemTag1: Clams
   myWantedItemTag2: 
   Frying: {fileID: 0}
-  Boiling: {fileID: 0}
+  Boiling: {fileID: 8300000, guid: 897be5468c114ef4ab312e70fb9575c1, type: 3}
   Cutting: {fileID: 0}
 --- !u!114 &519585084
 MonoBehaviour:
@@ -4566,7 +4566,7 @@ MonoBehaviour:
   myWantedItemTag: Egg
   myWantedItemTag1: Pork
   myWantedItemTag2: Shrimp
-  Frying: {fileID: 0}
+  Frying: {fileID: 8300000, guid: c1f24cf862ff2c5429f04b40fcc80d40, type: 3}
   Boiling: {fileID: 0}
   Cutting: {fileID: 0}
 --- !u!114 &1300184104
@@ -4870,7 +4870,7 @@ MonoBehaviour:
   myWantedItemTag: Egg
   myWantedItemTag1: Pork
   myWantedItemTag2: Shrimp
-  Frying: {fileID: 0}
+  Frying: {fileID: 8300000, guid: c1f24cf862ff2c5429f04b40fcc80d40, type: 3}
   Boiling: {fileID: 0}
   Cutting: {fileID: 0}
 --- !u!114 &1338486104
@@ -6368,7 +6368,7 @@ MonoBehaviour:
   myWantedItemTag2: 
   Frying: {fileID: 0}
   Boiling: {fileID: 0}
-  Cutting: {fileID: 0}
+  Cutting: {fileID: 8300000, guid: f33aed415f859b8408b3984f0bf00f38, type: 3}
 --- !u!114 &1602588597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7826,7 +7826,7 @@ MonoBehaviour:
   myWantedItemTag1: Clams
   myWantedItemTag2: 
   Frying: {fileID: 0}
-  Boiling: {fileID: 0}
+  Boiling: {fileID: 8300000, guid: 897be5468c114ef4ab312e70fb9575c1, type: 3}
   Cutting: {fileID: 0}
 --- !u!114 &2026511424
 MonoBehaviour:
