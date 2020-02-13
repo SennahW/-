@@ -42,6 +42,7 @@ public class Lifes : MonoBehaviour
         }
         else if (myCounter >= 3)
         {
+            GameObject.FindGameObjectWithTag("GiveMoney").GetComponent<GiveMoney>().SaveMoney();
             SceneManager.LoadScene(3);
         }
         myCounter++;

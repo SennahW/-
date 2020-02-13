@@ -82,6 +82,7 @@
     <Compile Include="Assets\Resources\Scripts\Game1\SpawnChopped.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\Timer.cs" />
     <Compile Include="Assets\Resources\Scripts\GameOver\GameOver.cs" />
+    <Compile Include="Assets\Resources\Scripts\GameOver\GameOverMaster.cs" />
     <Compile Include="Assets\Resources\Scripts\GameOver\HighscoreTable.cs" />
     <Compile Include="Assets\Resources\Scripts\MainMenu\ButtonHandler.cs" />
     <Compile Include="Assets\Resources\Scripts\Recipes\Recipes.cs" />

@@ -117,7 +117,7 @@ public class Slots : MonoBehaviour, IDropHandler
             {
                 if (gameObject.transform.GetChild(0).tag == "PorkCooked" || gameObject.transform.GetChild(0).tag == "ShrimpCooked" || gameObject.transform.GetChild(0).tag == "EggCooked")
                 {
-                    gameObject.transform.GetChild(0).GetComponent<Burnt>().AddBurnt();
+                    gameObject.transform.GetChild(0).GetComponent<Burnt>().AddBurnt(this.tag);
                 }
             }
         }
@@ -171,11 +171,8 @@ public class Slots : MonoBehaviour, IDropHandler
             if (DragHandler.myItemBegingDragged.tag == "Pork")
             {
                 PlayFryingAudio();
-
-                //var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                //temp.SetTrigger("CookEgg");
-                SpawnCookedPork();
-                DestroyImmediate(DragHandler.myItemBegingDragged);
+                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                temp.SetTrigger("CookPork");
             }
             if (DragHandler.myItemBegingDragged.tag == "Shrimp")
             {
@@ -199,10 +196,8 @@ public class Slots : MonoBehaviour, IDropHandler
             {
                 PlayFryingAudio();
 
-                //var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                //temp.SetTrigger("CookEgg");
-                SpawnCookedPork();
-                DestroyImmediate(DragHandler.myItemBegingDragged);
+                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                temp.SetTrigger("CookPorkTwo");
             }
             if (DragHandler.myItemBegingDragged.tag == "Shrimp")
             {
@@ -330,6 +325,12 @@ public class Slots : MonoBehaviour, IDropHandler
     public void SpawnBurntShrimp()
     {
         GameObject ClamCooked = Resources.Load<GameObject>("Prefabs/ShrimpBurnt");
+        Instantiate<GameObject>(ClamCooked, this.transform);
+    }
+
+    public void SpawnBurntEgg()
+    {
+        GameObject ClamCooked = Resources.Load<GameObject>("Prefabs/EggBurnt");
         Instantiate<GameObject>(ClamCooked, this.transform);
     }
 }
