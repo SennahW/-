@@ -171,11 +171,8 @@ public class Slots : MonoBehaviour, IDropHandler
             if (DragHandler.myItemBegingDragged.tag == "Pork")
             {
                 PlayFryingAudio();
-
-                //var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                //temp.SetTrigger("CookEgg");
-                SpawnCookedPork();
-                DestroyImmediate(DragHandler.myItemBegingDragged);
+                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                temp.SetTrigger("CookPork");
             }
             if (DragHandler.myItemBegingDragged.tag == "Shrimp")
             {
@@ -199,10 +196,8 @@ public class Slots : MonoBehaviour, IDropHandler
             {
                 PlayFryingAudio();
 
-                //var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                //temp.SetTrigger("CookEgg");
-                SpawnCookedPork();
-                DestroyImmediate(DragHandler.myItemBegingDragged);
+                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                temp.SetTrigger("CookPorkTwo");
             }
             if (DragHandler.myItemBegingDragged.tag == "Shrimp")
             {
