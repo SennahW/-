@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class Lifes : MonoBehaviour
 {
+
     public GameObject LifeOne;
     public GameObject LifeTwo;
     public GameObject LifeThree;
 
     public float myCounter;
-
     // Start is called before the first frame update
     void Start()
     {

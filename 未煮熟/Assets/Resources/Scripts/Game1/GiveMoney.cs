@@ -1,7 +1,7 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 using System;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GiveMoney : MonoBehaviour
 {
@@ -11,7 +11,7 @@ public class GiveMoney : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        string tempMoneyString = "Score: " + myMoney.ToString();
+        string tempMoneyString = myMoney.ToString();
         myScoreText.text = tempMoneyString;
     }
 
@@ -32,5 +32,4 @@ public class GiveMoney : MonoBehaviour
         int rounded = (int)Math.Round(myMoney, 0);
         myMoney = rounded;
     }
-
 }

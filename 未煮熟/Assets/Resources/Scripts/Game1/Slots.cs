@@ -13,6 +13,10 @@ public class Slots : MonoBehaviour, IDropHandler
 
     PointerEventData myEventData;
 
+    public AudioClip Frying;
+    public AudioClip Boiling;
+    public AudioClip Cutting;
+
     public GameObject myItem
     {
         get
@@ -143,11 +147,15 @@ public class Slots : MonoBehaviour, IDropHandler
             {
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("RunChop");
+                PlayCuttingAudio();
+
             }
             else if (DragHandler.myItemBegingDragged.tag == "Lemon")
             {
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("RunChop");
+                PlayCuttingAudio();
+
             }
         }
 
@@ -155,11 +163,15 @@ public class Slots : MonoBehaviour, IDropHandler
         {
             if (DragHandler.myItemBegingDragged.tag == "Egg")
             {
+                PlayFryingAudio();
+
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookEgg");
             }
             if (DragHandler.myItemBegingDragged.tag == "Pork")
             {
+                PlayFryingAudio();
+
                 //var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 //temp.SetTrigger("CookEgg");
                 SpawnCookedPork();
@@ -167,6 +179,8 @@ public class Slots : MonoBehaviour, IDropHandler
             }
             if (DragHandler.myItemBegingDragged.tag == "Shrimp")
             {
+                PlayFryingAudio();
+
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookShrimpOne");
             }
@@ -176,11 +190,15 @@ public class Slots : MonoBehaviour, IDropHandler
         {
             if (DragHandler.myItemBegingDragged.tag == "Egg")
             {
+                PlayFryingAudio();
+
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookEggTwo");
             }
             if (DragHandler.myItemBegingDragged.tag == "Pork")
             {
+                PlayFryingAudio();
+
                 //var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 //temp.SetTrigger("CookEgg");
                 SpawnCookedPork();
@@ -188,6 +206,8 @@ public class Slots : MonoBehaviour, IDropHandler
             }
             if (DragHandler.myItemBegingDragged.tag == "Shrimp")
             {
+                PlayFryingAudio();
+
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookShrimpTwo");
             }
@@ -197,11 +217,15 @@ public class Slots : MonoBehaviour, IDropHandler
         {
             if (DragHandler.myItemBegingDragged.tag == "Rice")
             {
+                PlayBoilingAudio();
+
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookRice");
             }
             else if (DragHandler.myItemBegingDragged.tag == "Clams")
             {
+                PlayBoilingAudio();
+
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookClam");
             }
@@ -210,11 +234,15 @@ public class Slots : MonoBehaviour, IDropHandler
         {
             if (DragHandler.myItemBegingDragged.tag == "Rice")
             {
+                PlayBoilingAudio();
+
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookRiceTwo");
             }
             else if (DragHandler.myItemBegingDragged.tag == "Clams")
             {
+                PlayBoilingAudio();
+
                 var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
                 temp.SetTrigger("CookClamTwo");
             }
@@ -225,6 +253,28 @@ public class Slots : MonoBehaviour, IDropHandler
         {
             DestroyImmediate(DragHandler.myItemBegingDragged);
         }
+    }
+
+    void PlayCuttingAudio()
+    {
+
+        AudioSource audio = gameObject.AddComponent<AudioSource>();
+        audio.clip = Cutting;
+        audio.Play();
+    }
+
+    void PlayBoilingAudio()
+    {
+        AudioSource audio = gameObject.AddComponent<AudioSource>();
+        audio.clip = Boiling;
+        audio.Play();
+    }
+
+    void PlayFryingAudio()
+    {
+        AudioSource audio = gameObject.AddComponent<AudioSource>();
+        audio.clip = Frying;
+        audio.Play();
     }
 
     public void SpawnChoppenGeenOnion()
