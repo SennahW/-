@@ -32,6 +32,7 @@ public class PersonCode : MonoBehaviour
     public GameObject Timer;
     public bool OrderFinished;
     public bool TimerFinshed;
+    public bool GivenMoney = false;
 
     float myElapsedTime;
 
@@ -109,16 +110,33 @@ public class PersonCode : MonoBehaviour
                     if (SlotOne.transform.GetChild(0).tag == myOrder[0] && SlotTwo.transform.GetChild(0).tag == myOrder[1] && SlotThree.transform.GetChild(0).tag == myOrder[2])
                     {
                         OrderFinished = true;
+                        if (GivenMoney == false)
+                        {
+                            GiveMoney.myMoney += 100;
+                            GivenMoney = true;
+                        }
                     }
                 }
                 else if (SlotOne.transform.GetChild(0).tag == myOrder[0] && SlotTwo.transform.GetChild(0).tag == myOrder[1])
                 {
-                        OrderFinished = true;
+                    OrderFinished = true;
+                    if (GivenMoney == false)
+                    {
+                        GiveMoney.myMoney += 100;
+                        GivenMoney = true;
+                    }
+
                 }
             }
             else if (SlotOne.transform.GetChild(0).tag == myOrder[0] && myOrder.Length < 2)
             {
-                        OrderFinished = true;
+                OrderFinished = true;
+                if (GivenMoney == false)
+                {
+                    GiveMoney.myMoney += 100;
+                    GivenMoney = true;
+                }
+
             }
         }
 
@@ -163,7 +181,6 @@ public class PersonCode : MonoBehaviour
         if (OrderFinished == true)
         {
             FindCostumerSpot.AvailableSpots[SeatTaken] = 0;
-            GiveMoney.myMoney += 100;
             myTargetPos = GameObject.FindGameObjectWithTag("ExitPoint").transform.position;
         }
 
