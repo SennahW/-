@@ -24,6 +24,21 @@ public class Burnt : MonoBehaviour
 
             }
         }
+
+        if (myBurntCounter == 1000)
+        {
+            if (mySlot == "FryingpanOne")
+            {
+                GameObject Exclamation = Resources.Load<GameObject>("Prefabs/Exclamtion");
+                Instantiate<GameObject>(Exclamation, GameObject.FindGameObjectWithTag("FryingpanOne").transform);
+            }
+
+            if (mySlot == "FryingpanTwo")
+            {
+                GameObject Exclamation = Resources.Load<GameObject>("Prefabs/Exclamtion");
+                Instantiate<GameObject>(Exclamation, GameObject.FindGameObjectWithTag("FryingpanTwo").transform);
+            }
+        }
     }
     
     public void AddBurnt(string aTempString)
