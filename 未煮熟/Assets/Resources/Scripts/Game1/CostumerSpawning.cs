@@ -8,7 +8,7 @@ public class CostumerSpawning : MonoBehaviour
     public GameObject ObjectToSpawn;
     private Vector2 SpawnVector;
     public static int timer;
-    private int nextSpawn = 500;
+    private int nextSpawn = 750;
     public static int CurrentCostumers;
 
     public AudioClip DoorChime;
@@ -20,7 +20,7 @@ public class CostumerSpawning : MonoBehaviour
 
         if (timer >= nextSpawn && CurrentCostumers < 5)
         {
-            nextSpawn = Random.Range(2500, 9000);
+            nextSpawn = Random.Range(750, 3750);
             playSound();
             Instantiate(ObjectToSpawn, Spawn.transform);
             CurrentCostumers++;

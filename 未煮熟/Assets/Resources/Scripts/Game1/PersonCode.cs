@@ -93,8 +93,8 @@ public class PersonCode : MonoBehaviour
 
         if (position.x.Between(myTargetPos.x, 0.5f) && position.y.Between(myTargetPos.y, 0.5f) && OrderFinished == false && TimerFinshed == true)
         {
-            GameObject.FindGameObjectWithTag("Gamemaster").GetComponent<Lifes>().RemoveLife();
             GiveMoney.myMoney += -30;
+            GameObject.FindGameObjectWithTag("Gamemaster").GetComponent<Lifes>().RemoveLife();           
             CostumerSpawning.timer = 400;
             FindCostumerSpot.AvailableSpots[SeatTaken] = 0;
             CostumerSpawning.CurrentCostumers--;
