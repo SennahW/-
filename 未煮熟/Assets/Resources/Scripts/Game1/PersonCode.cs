@@ -186,6 +186,8 @@ public class PersonCode : MonoBehaviour
 
         if (position.x.Between(GameObject.FindGameObjectWithTag("ExitPoint").transform.position.x, 0.5f) && position.y.Between(GameObject.FindGameObjectWithTag("ExitPoint").transform.position.y, 0.5f) && OrderFinished == true)
         {
+            FindCostumerSpot.AvailableSpots[SeatTaken] = 0;
+            CostumerSpawning.CurrentCostumers--;
             Destroy(this.gameObject);
         }
     }
