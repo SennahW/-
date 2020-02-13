@@ -134,4 +134,16 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         GameObject.FindGameObjectWithTag("FryingpanTwo").GetComponent<Slots>().SpawnBurntShrimp();
         Destroy(this.gameObject);
     }
+
+    public void SpawnBurntEggOne()
+    {
+        GameObject.FindGameObjectWithTag("FryingpanOne").GetComponent<Slots>().SpawnBurntEgg();
+        Destroy(this.gameObject);
+    }
+
+    public void SpawnBurntEggTwo()
+    {
+        GameObject.FindGameObjectWithTag("FryingpanTwo").GetComponent<Slots>().SpawnBurntEgg();
+        Destroy(this.gameObject);
+    }
 }
