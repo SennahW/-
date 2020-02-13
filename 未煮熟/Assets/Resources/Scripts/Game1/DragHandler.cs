@@ -119,7 +119,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     public void SpawnBurntPorktTwo()
     {
-        GameObject.FindGameObjectWithTag("FryingpanOne").GetComponent<Slots>().SpawnBurntPork();
+        GameObject.FindGameObjectWithTag("FryingpanTwo").GetComponent<Slots>().SpawnBurntPork();
         Destroy(this.gameObject);
     }
 
