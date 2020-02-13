@@ -34,9 +34,14 @@ public class PersonCode : MonoBehaviour
     public bool OrderFinished;
     public bool TimerFinshed;
 
+    public Sprite[] costumers;
+
+    public AudioClip audioTimer;
+
     float myElapsedTime;
 
     public Animator myAnimator;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -47,8 +52,13 @@ public class PersonCode : MonoBehaviour
         SeatTaken = FindCostumerSpot.Spot;
         Pos = transform.position;
         
+        int tempCos = Random.Range(0, costumers.Length);
+
+        GetComponent<Image>().sprite = costumers[tempCos];
 
     }
+
+
 
     // Update is called once per frame
     private void Update()
@@ -172,6 +182,13 @@ public class PersonCode : MonoBehaviour
         {
             myOrderImageGameObject.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/Game1/Orders/talk_bubble_3");
         }
+    }
+
+   public  void PlayTimer()
+    {
+        AudioSource audio = gameObject.AddComponent<AudioSource>();
+        audio.clip = audioTimer;
+        audio.Play();
     }
 
     public void TimerFinished()
