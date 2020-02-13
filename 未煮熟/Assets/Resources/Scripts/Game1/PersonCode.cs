@@ -20,7 +20,6 @@ public class PersonCode : MonoBehaviour
     private Vector2 Pos;
     public Vector2 position;
     public Vector2 myTargetPos;
-    GameObject myFoodPosition;
     int SeatTaken;
     public float speed = 50.0f;
 
@@ -33,6 +32,7 @@ public class PersonCode : MonoBehaviour
     public GameObject Timer;
     public bool OrderFinished;
     public bool TimerFinshed;
+    public bool GivenMoney = false;
 
     public Sprite[] costumers;
 
@@ -103,24 +103,12 @@ public class PersonCode : MonoBehaviour
 
         if (position.x.Between(myTargetPos.x, 0.5f) && position.y.Between(myTargetPos.y, 0.5f) && OrderFinished == false && TimerFinshed == true)
         {
-            GameObject.FindGameObjectWithTag("Gamemaster").GetComponent<Lifes>().RemoveLife();
             GiveMoney.myMoney += -30;
+            GameObject.FindGameObjectWithTag("Gamemaster").GetComponent<Lifes>().RemoveLife();           
             CostumerSpawning.timer = 400;
             FindCostumerSpot.AvailableSpots[SeatTaken] = 0;
             CostumerSpawning.CurrentCostumers--;
             Destroy(this.gameObject);
-        }
-
-
-        if (OrderFinished == true)
-        {
-            FindCostumerSpot.AvailableSpots[SeatTaken] = 0;
-            GiveMoney.myMoney += 100;
-            myTargetPos = GameObject.FindGameObjectWithTag("ExitPoint").transform.position;
-            //Destroy(SlotOne);
-            //Destroy(SlotTwo);
-            //Destroy(SlotThree);
-            //Destroy(myOrderImageGameObject);
         }
 
         if (SlotOne.transform.childCount > 0)
@@ -132,16 +120,33 @@ public class PersonCode : MonoBehaviour
                     if (SlotOne.transform.GetChild(0).tag == myOrder[0] && SlotTwo.transform.GetChild(0).tag == myOrder[1] && SlotThree.transform.GetChild(0).tag == myOrder[2])
                     {
                         OrderFinished = true;
+                        if (GivenMoney == false)
+                        {
+                            GiveMoney.myMoney += 100;
+                            GivenMoney = true;
+                        }
                     }
                 }
                 else if (SlotOne.transform.GetChild(0).tag == myOrder[0] && SlotTwo.transform.GetChild(0).tag == myOrder[1])
                 {
-                        OrderFinished = true;
+                    OrderFinished = true;
+                    if (GivenMoney == false)
+                    {
+                        GiveMoney.myMoney += 100;
+                        GivenMoney = true;
+                    }
+
                 }
             }
             else if (SlotOne.transform.GetChild(0).tag == myOrder[0] && myOrder.Length < 2)
             {
-                        OrderFinished = true;
+                OrderFinished = true;
+                if (GivenMoney == false)
+                {
+                    GiveMoney.myMoney += 100;
+                    GivenMoney = true;
+                }
+
             }
         }
 
@@ -181,6 +186,19 @@ public class PersonCode : MonoBehaviour
         else if (myOrder[0] == "Ris_paella")
         {
             myOrderImageGameObject.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/Game1/Orders/talk_bubble_3");
+        }
+
+        if (OrderFinished == true)
+        {
+            FindCostumerSpot.AvailableSpots[SeatTaken] = 0;
+            myTargetPos = GameObject.FindGameObjectWithTag("ExitPoint").transform.position;
+        }
+
+        if (position.x.Between(GameObject.FindGameObjectWithTag("ExitPoint").transform.position.x, 0.5f) && position.y.Between(GameObject.FindGameObjectWithTag("ExitPoint").transform.position.y, 0.5f) && OrderFinished == true)
+        {
+            FindCostumerSpot.AvailableSpots[SeatTaken] = 0;
+            CostumerSpawning.CurrentCostumers--;
+            Destroy(this.gameObject);
         }
     }
 
