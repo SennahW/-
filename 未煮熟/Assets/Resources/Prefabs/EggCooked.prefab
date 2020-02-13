@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 3446938239590702016}
   - component: {fileID: 5997814454254246891}
   - component: {fileID: 5116843429311238872}
+  - component: {fileID: 290337681431000217}
+  - component: {fileID: 4929734159108061690}
   m_Layer: 5
   m_Name: EggCooked
   m_TagString: EggCooked
@@ -113,3 +115,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myBurntCounter: 0
+--- !u!95 &290337681431000217
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3886749355870666374}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 50cb8f637f9337a478bb505040e60df0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4929734159108061690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3886749355870666374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7acaf3aa7717b42bb34e7d768b1adf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
