@@ -467,6 +467,14 @@ MonoBehaviour:
   Timer: {fileID: 4221070874653705945}
   OrderFinished: 0
   TimerFinshed: 0
+  costumers:
+  - {fileID: 21300000, guid: 7877300a587cd8e44ae42486368de0db, type: 3}
+  - {fileID: 21300000, guid: ced126e5771e5af48b281d9f3b6cbb9e, type: 3}
+  - {fileID: 21300000, guid: 585ea9fff850dbc45905a2ff5ff2f8ae, type: 3}
+  - {fileID: 21300000, guid: 2f724dad9c307154883cf1c7109e8c58, type: 3}
+  - {fileID: 21300000, guid: 10371dcb42fd28e4cafdbbd7218706fb, type: 3}
+  - {fileID: 21300000, guid: 755e0ce7c7efc3e4382fb052ce867a2b, type: 3}
+  audioTimer: {fileID: 8300000, guid: b4e07ae2d4df9144a95d490bc3bd0d5b, type: 3}
   myAnimator: {fileID: 0}
 --- !u!222 &8548715221582848721
 CanvasRenderer:

@@ -17,6 +17,8 @@ public class Timer : MonoBehaviour
 
     public Animator myAnimatordsds;
 
+    public AudioClip audioTimer;
+
     void Awake()
     {
         
@@ -53,6 +55,11 @@ public class Timer : MonoBehaviour
             myElapsedTimeFloat = myTimerLength - myElapsedTime;
         }
 
+        if (myElapsedTime == 100)
+        {
+            playTimer();
+        }
+
         if (myElapsedTime >= myTimerLength)
         {
             myTimerActive = false;
@@ -74,5 +81,14 @@ public class Timer : MonoBehaviour
             //  Handheld.Vibrate();
         }
     }
+
+    void playTimer()
+    {
+        AudioSource audio = gameObject.AddComponent<AudioSource>();
+        audio.clip = audioTimer;
+
+        audio.Play();
+    }
+
         public float AccessMyElasped { get => myElapsedTime; set => myElapsedTime = value; }
 }

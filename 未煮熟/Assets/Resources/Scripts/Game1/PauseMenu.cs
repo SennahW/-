@@ -6,7 +6,6 @@ using UnityEngine.Audio;
 
 public class PauseMenu : MonoBehaviour
 {
-    public Sound[] mySounds;
 
     public static bool GameIsPaused = false;
 
@@ -41,9 +40,9 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void MainMenu()
-    {
-        Time.timeScale = 1f;
+    {       
         SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
         myPauseMenuUI.SetActive(false);
         GameIsPaused = false;
     }

@@ -34,9 +34,14 @@ public class PersonCode : MonoBehaviour
     public bool TimerFinshed;
     public bool GivenMoney = false;
 
+    public Sprite[] costumers;
+
+    public AudioClip audioTimer;
+
     float myElapsedTime;
 
     public Animator myAnimator;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -47,8 +52,13 @@ public class PersonCode : MonoBehaviour
         SeatTaken = FindCostumerSpot.Spot;
         Pos = transform.position;
         
+        int tempCos = Random.Range(0, costumers.Length);
+
+        GetComponent<Image>().sprite = costumers[tempCos];
 
     }
+
+
 
     // Update is called once per frame
     private void Update()
@@ -190,6 +200,13 @@ public class PersonCode : MonoBehaviour
             CostumerSpawning.CurrentCostumers--;
             Destroy(this.gameObject);
         }
+    }
+
+   public  void PlayTimer()
+    {
+        AudioSource audio = gameObject.AddComponent<AudioSource>();
+        audio.clip = audioTimer;
+        audio.Play();
     }
 
     public void TimerFinished()

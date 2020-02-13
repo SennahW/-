@@ -1,1 +1,2 @@
-﻿using UnityEngine; public class AnimationHelper : MonoBehaviour{public void TimerFinished(){transform.parent.GetComponent<PersonCode>().TimerFinished();}}
+﻿using UnityEngine; public class AnimationHelper : MonoBehaviour{public void TimerFinished(){transform.parent.GetComponent<PersonCode>().TimerFinished();}
+public void PlayTimer(){transform.parent.GetComponent<PersonCode>().PlayTimer();}}

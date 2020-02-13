@@ -512,7 +512,7 @@ MonoBehaviour:
     myClip: {fileID: 8300000, guid: e086a73dc58ff2d4eb0485ac8dc579ef, type: 3}
     myVolume: 2
     myPitch: 1
-    myLoop: 1
+    myLoop: 0
     mySource: {fileID: 0}
 --- !u!4 &729234207
 Transform:
@@ -1006,6 +1006,11 @@ PrefabInstance:
     - target: {fileID: 6888852746182375780, guid: 9e208f1724496c34499fb5b3b139b2b4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888852746182375781, guid: 9e208f1724496c34499fb5b3b139b2b4,
+        type: 3}
+      propertyPath: Loop
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6888852746182375782, guid: 9e208f1724496c34499fb5b3b139b2b4,
