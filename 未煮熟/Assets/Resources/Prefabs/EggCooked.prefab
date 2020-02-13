@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7573330672582237024}
   - component: {fileID: 3446938239590702016}
   - component: {fileID: 5997814454254246891}
+  - component: {fileID: 5116843429311238872}
   m_Layer: 5
   m_Name: EggCooked
   m_TagString: EggCooked
@@ -99,3 +100,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9f03320f102c104992ed1a10796861d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5116843429311238872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3886749355870666374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3eb8e27489b97142bb9087739c175a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myBurntCounter: 0

@@ -55,6 +55,7 @@ TagManager:
   - LifeOne
   - LifeTwo
   - LifeThree
+  - Smokepoint
   layers:
   - Default
   - TransparentFX

@@ -9,6 +9,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public static GameObject myItemBegingDragged;
     Vector3 myStartPosition;
     Transform myStartParent;
+    float myBurntCounter;
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -32,6 +33,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             transform.position = myStartPosition;
         }
     }
+
 
     public void SpawnOnion()
     {
@@ -106,6 +108,30 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public void SpawnCookedClamTwo()
     {
         GameObject.FindGameObjectWithTag("PotTwo").GetComponent<Slots>().SpawnCookedClams();
+        Destroy(this.gameObject);
+    }
+
+    public void SpawnBurntPorktOne()
+    {
+        GameObject.FindGameObjectWithTag("FryingpanOne").GetComponent<Slots>().SpawnBurntPork();
+        Destroy(this.gameObject);
+    }
+
+    public void SpawnBurntPorktTwo()
+    {
+        GameObject.FindGameObjectWithTag("FryingpanOne").GetComponent<Slots>().SpawnBurntPork();
+        Destroy(this.gameObject);
+    }
+
+    public void SpawnBurntShrimpOne()
+    {
+        GameObject.FindGameObjectWithTag("FryingpanOne").GetComponent<Slots>().SpawnBurntShrimp();
+        Destroy(this.gameObject);
+    }
+
+    public void SpawnBurntShrimpTwo()
+    {
+        GameObject.FindGameObjectWithTag("FryingpanTwo").GetComponent<Slots>().SpawnBurntShrimp();
         Destroy(this.gameObject);
     }
 }

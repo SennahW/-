@@ -111,76 +111,16 @@ public class Slots : MonoBehaviour, IDropHandler
             }
         }
 
-        //if (tag == "FryingpanOne")
-        //{
-        //    if (transform.childCount > 0)
-        //    {
-        //        if (transform.GetChild(0).tag == "EggCooked" && GetComponent<GridLayoutGroup>().padding.top != 10)
-        //        {
-        //            GetComponent<GridLayoutGroup>().padding.top = -10;
-        //            Debug.Log(GetComponent<GridLayoutGroup>().padding);
-        //            LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-        //        }
-        //    }
-        //    else
-        //    {
-        //        GetComponent<GridLayoutGroup>().padding.top = 0;
-        //        LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-        //    }
-        //}
-        //if (tag == "FryingpanTwo")
-        //{
-
-        //    if (transform.childCount > 0)
-        //    {
-        //        if (transform.GetChild(0).tag == "EggCooked")
-        //        {
-        //            GetComponent<GridLayoutGroup>().padding.top = 20;
-        //            Debug.Log(GetComponent<GridLayoutGroup>().padding);
-        //            LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-        //        }
-        //    }
-        //    else
-        //    {
-        //        GetComponent<GridLayoutGroup>().padding.top = 0;
-        //        LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-        //    }
-        //}
-        //if (tag == "PotOne")
-        //{
-
-        //    if (transform.childCount > 0)
-        //    {
-        //        if (transform.GetChild(0).tag == "RiceCooked")
-        //        {
-        //            GetComponent<GridLayoutGroup>().padding.top = -30;
-        //            Debug.Log(GetComponent<GridLayoutGroup>().padding);
-        //            LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-        //        }
-        //    }
-        //    else
-        //    {
-        //        GetComponent<GridLayoutGroup>().padding.top = 0;
-        //        LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-        //    }
-        //}
-        //if (tag == "PotTwo")
-        //{
-
-        //    if (transform.childCount > 0)
-        //    {
-        //        if (transform.GetChild(0).tag == "RiceCooked")
-        //        {
-        //            GetComponent<GridLayoutGroup>().padding.top = -30;
-        //            LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-        //        }
-        //    }
-        //    else
-        //    {
-        //        GetComponent<GridLayoutGroup>().padding.top = 0;
-        //        LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponentInParent<RectTransform>());
-        //    }
-        //}
+        if (this.tag == "FryingpanOne" || this.tag == "FryingpanTwo")
+        {
+            if (gameObject.transform.childCount > 0)
+            {
+                if (gameObject.transform.GetChild(0).tag == "PorkCooked" || gameObject.transform.GetChild(0).tag == "ShrimpCooked" || gameObject.transform.GetChild(0).tag == "EggCooked")
+                {
+                    gameObject.transform.GetChild(0).GetComponent<Burnt>().AddBurnt();
+                }
+            }
+        }
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -378,6 +318,18 @@ public class Slots : MonoBehaviour, IDropHandler
     public void SpawnCookedClams()
     {
         GameObject ClamCooked = Resources.Load<GameObject>("Prefabs/ClamsCooked");
+        Instantiate<GameObject>(ClamCooked, this.transform);
+    }
+
+    public void SpawnBurntPork()
+    {
+        GameObject ClamCooked = Resources.Load<GameObject>("Prefabs/PorkBurnt");
+        Instantiate<GameObject>(ClamCooked, this.transform);
+    }
+
+    public void SpawnBurntShrimp()
+    {
+        GameObject ClamCooked = Resources.Load<GameObject>("Prefabs/ShrimpBurnt");
         Instantiate<GameObject>(ClamCooked, this.transform);
     }
 }

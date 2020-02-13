@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 4633538239847673606}
   - component: {fileID: 468865246666764198}
   - component: {fileID: 8820517651758296973}
+  - component: {fileID: 8772087374852573202}
+  - component: {fileID: 7034649702202827886}
+  - component: {fileID: 2054636482612349720}
   m_Layer: 5
   m_Name: PorkCooked
   m_TagString: PorkCooked
@@ -97,5 +100,49 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9f03320f102c104992ed1a10796861d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8772087374852573202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063989586328849120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3eb8e27489b97142bb9087739c175a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myBurntCounter: 0
+--- !u!95 &7034649702202827886
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063989586328849120}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 641a95874fb43ea42b13e1b898c82463, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2054636482612349720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063989586328849120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7acaf3aa7717b42bb34e7d768b1adf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
