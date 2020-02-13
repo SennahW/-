@@ -20,7 +20,6 @@ public class PersonCode : MonoBehaviour
     private Vector2 Pos;
     public Vector2 position;
     public Vector2 myTargetPos;
-    GameObject myFoodPosition;
     int SeatTaken;
     public float speed = 50.0f;
 
@@ -101,18 +100,6 @@ public class PersonCode : MonoBehaviour
             Destroy(this.gameObject);
         }
 
-
-        if (OrderFinished == true)
-        {
-            FindCostumerSpot.AvailableSpots[SeatTaken] = 0;
-            GiveMoney.myMoney += 100;
-            myTargetPos = GameObject.FindGameObjectWithTag("ExitPoint").transform.position;
-            //Destroy(SlotOne);
-            //Destroy(SlotTwo);
-            //Destroy(SlotThree);
-            //Destroy(myOrderImageGameObject);
-        }
-
         if (SlotOne.transform.childCount > 0)
         {
             if (SlotTwo.transform.childCount > 0 && myOrder.Length > 1)
@@ -171,6 +158,18 @@ public class PersonCode : MonoBehaviour
         else if (myOrder[0] == "Ris_paella")
         {
             myOrderImageGameObject.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/Game1/Orders/talk_bubble_3");
+        }
+
+        if (OrderFinished == true)
+        {
+            FindCostumerSpot.AvailableSpots[SeatTaken] = 0;
+            GiveMoney.myMoney += 100;
+            myTargetPos = GameObject.FindGameObjectWithTag("ExitPoint").transform.position;
+        }
+
+        if (position.x.Between(GameObject.FindGameObjectWithTag("ExitPoint").transform.position.x, 0.5f) && position.y.Between(GameObject.FindGameObjectWithTag("ExitPoint").transform.position.y, 0.5f) && OrderFinished == true)
+        {
+            Destroy(this.gameObject);
         }
     }
 
