@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Burnt : MonoBehaviour
 {
@@ -29,14 +30,25 @@ public class Burnt : MonoBehaviour
         {
             if (mySlot == "FryingpanOne")
             {
-                GameObject Exclamation = Resources.Load<GameObject>("Prefabs/Exclamtion");
-                Instantiate<GameObject>(Exclamation, GameObject.FindGameObjectWithTag("FryingpanOne").transform);
+                GameObject.FindGameObjectWithTag("Fryingpan!").GetComponent<Image>().enabled = true;
             }
 
             if (mySlot == "FryingpanTwo")
             {
-                GameObject Exclamation = Resources.Load<GameObject>("Prefabs/Exclamtion");
-                Instantiate<GameObject>(Exclamation, GameObject.FindGameObjectWithTag("FryingpanTwo").transform);
+                GameObject.FindGameObjectWithTag("FryingpanTwo!").GetComponent<Image>().enabled = true;
+            }
+        }
+
+        if (myBurntCounter == 1500)
+        {
+            if (mySlot == "FryingpanOne")
+            {
+                GameObject.FindGameObjectWithTag("Fryingpan!").GetComponent<Image>().enabled = false;
+            }
+
+            if (mySlot == "FryingpanTwo")
+            {
+                GameObject.FindGameObjectWithTag("FryingpanTwo!").GetComponent<Image>().enabled = false;
             }
         }
     }
