@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - AudioManagerGame1
     - AudioManagerGameOver
     - AudioManagerMainMenu
+    - AudioManagerRecipes
     - Burnt
     - ButtonHandler
     - CostumerSpawning
@@ -1131,6 +1132,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a02ad66fbc40697bc3e1f3b4ab2cf24e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManagerRecipes
   platform: 19
   scenePathNames:
   - Assets/Resources/Scenes/MainMenu.unity

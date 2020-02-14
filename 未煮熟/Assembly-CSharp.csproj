@@ -90,6 +90,7 @@
     <Compile Include="Assets\Resources\Scripts\SoundManager\AudioManagerGame1.cs" />
     <Compile Include="Assets\Resources\Scripts\SoundManager\AudioManagerGameOver.cs" />
     <Compile Include="Assets\Resources\Scripts\SoundManager\AudioManagerMainMenu.cs" />
+    <Compile Include="Assets\Resources\Scripts\SoundManager\AudioManagerRecipes.cs" />
     <Compile Include="Assets\Resources\Scripts\SoundManager\Sound.cs" />
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
