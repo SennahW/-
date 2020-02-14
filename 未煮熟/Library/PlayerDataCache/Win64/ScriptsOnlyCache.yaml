@@ -1156,4 +1156,4 @@ ScriptsOnlyBuild:
   - Assets/Resources/Scenes/Recipes.unity
   - Assets/Resources/Scenes/Game1.unity
   - Assets/Resources/Scenes/GameOver.unity
-  playerPath: "C:/Programmering/Projektvecka/-/\u672A\u716E\u719F/Undercooked.exe"
+  playerPath: C:/Users/wilhem.pantzar/Documents/test/Undercooked.exe
