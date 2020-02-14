@@ -120,6 +120,18 @@ public class Slots : MonoBehaviour, IDropHandler
                     gameObject.transform.GetChild(0).GetComponent<Burnt>().AddBurnt(this.tag);
                 }
             }
+            if (gameObject.transform.childCount == 0)
+            {
+                if (this.tag == "FryingpanOne")
+                {
+                    GameObject.FindGameObjectWithTag("Fryingpan!").GetComponent<Image>().enabled = false;
+                }
+
+                if (this.tag == "FryingpanTwo")
+                {
+                    GameObject.FindGameObjectWithTag("FryingpanTwo!").GetComponent<Image>().enabled = false;
+                }
+            }
         }
     }
 
