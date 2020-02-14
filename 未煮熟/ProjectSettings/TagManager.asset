@@ -57,6 +57,10 @@ TagManager:
   - LifeThree
   - Smokepoint
   - GiveMoney
+  - Fryingpan!
+  - FryingpanTwo!
+  - Pot!
+  - PotTwo!
   layers:
   - Default
   - TransparentFX
