@@ -10,10 +10,8 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
 
     public GameObject myPauseMenuUI;
-
     void Update ()
     {
-
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(0);
@@ -22,6 +20,11 @@ public class PauseMenu : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.G))
         {
             SceneManager.LoadScene(3);
+        }
+        if (Input.GetKeyDown(KeyCode.F8))
+        {
+            GameObject.FindGameObjectWithTag("Gamemaster").GetComponent<Lifes>().ToggleGodMode();
+            Debug.Log("Godmode! UNLIMITED POWEEER!!!");
         }
     }
 

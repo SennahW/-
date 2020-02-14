@@ -9156,6 +9156,7 @@ MonoBehaviour:
   LifeOne: {fileID: 1731148939}
   LifeTwo: {fileID: 1092130098}
   LifeThree: {fileID: 802047055}
+  GodMode: 0
   myCounter: 0
 --- !u!1 &2086610518
 GameObject:
