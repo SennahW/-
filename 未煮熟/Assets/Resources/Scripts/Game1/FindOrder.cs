@@ -14,7 +14,7 @@ public class FindOrder : MonoBehaviour
 
     public static string[] FoodOrder()
     {
-        int myOrderLength = Random.Range(1, 6);
+        int myOrderLength = Random.Range(1, 4);
         string[] myOrder = new string[ myOrderLength];
 
         switch (myOrderLength)
@@ -39,53 +39,20 @@ public class FindOrder : MonoBehaviour
                 {
                     case 1:
                         myOrder[0] = "Ris_ägg";
+                        myOrder[1] = "Ris_ägg_pork";
                         break;
                     case 2:
-                        myOrder[0] = "Ris_ägg_pork";
+                        myOrder[0] = "Ris_ägg";
+                        myOrder[1] = "Ris_paella";
                         break;
                     case 3:
-                        myOrder[0] = "Ris_paella";
+                        myOrder[0] = "Ris_ägg_pork";
+                        myOrder[1] = "Ris_paella";
                         break;
                 }
                 break;
 
             case 3:
-                switch (Random.Range(1, 4))
-                {
-                    case 1:
-                        myOrder[0] = "Ris_ägg";
-                        myOrder[1] = "Ris_ägg_pork";
-                        break;
-                    case 2:
-                        myOrder[0] = "Ris_ägg";
-                        myOrder[1] = "Ris_paella";
-                        break;
-                    case 3:
-                        myOrder[0] = "Ris_ägg_pork";
-                        myOrder[1] = "Ris_paella";
-                        break;
-                }
-                break;
-
-            case 4:
-                switch (Random.Range(1, 4))
-                {
-                    case 1:
-                        myOrder[0] = "Ris_ägg";
-                        myOrder[1] = "Ris_ägg_pork";
-                        break;
-                    case 2:
-                        myOrder[0] = "Ris_ägg";
-                        myOrder[1] = "Ris_paella";
-                        break;
-                    case 3:
-                        myOrder[0] = "Ris_ägg_pork";
-                        myOrder[1] = "Ris_paella";
-                        break;
-                }
-                break;
-
-            case 5:
                 myOrder[0] = "Ris_ägg";
                 myOrder[1] = "Ris_ägg_pork";
                 myOrder[2] = "Ris_paella";

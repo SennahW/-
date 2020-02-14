@@ -61,6 +61,7 @@ TagManager:
   - FryingpanTwo!
   - Pot!
   - PotTwo!
+  - CustomerTimer
   layers:
   - Default
   - TransparentFX

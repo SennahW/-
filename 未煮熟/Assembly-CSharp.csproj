@@ -68,6 +68,7 @@
     <Compile Include="Assets\Resources\Scripts\Game1\CostumerSpawning.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\Craft.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\DragHandler.cs" />
+    <Compile Include="Assets\Resources\Scripts\Game1\ExtraPatience.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\FindCostumerSpot.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\FindOrder.cs" />
     <Compile Include="Assets\Resources\Scripts\Game1\Game0ver.cs" />
