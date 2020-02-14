@@ -123,6 +123,8 @@ public class PersonCode : MonoBehaviour
                         if (GivenMoney == false)
                         {
                             GiveMoney.myMoney += 100;
+                            GameObject Coin = Resources.Load<GameObject>("Prefabs/Coin");
+                            Instantiate<GameObject>(Coin, this.transform);
                             GivenMoney = true;
                         }
                     }
@@ -133,6 +135,8 @@ public class PersonCode : MonoBehaviour
                     if (GivenMoney == false)
                     {
                         GiveMoney.myMoney += 100;
+                        GameObject Coin = Resources.Load<GameObject>("Prefabs/Coin");
+                        Instantiate<GameObject>(Coin, this.transform);
                         GivenMoney = true;
                     }
 
@@ -144,6 +148,8 @@ public class PersonCode : MonoBehaviour
                 if (GivenMoney == false)
                 {
                     GiveMoney.myMoney += 100;
+                    GameObject Coin = Resources.Load<GameObject>("Prefabs/Coin");
+                    Instantiate<GameObject>(Coin, this.transform);
                     GivenMoney = true;
                 }
 

@@ -143,6 +143,107 @@ public class Slots : MonoBehaviour, IDropHandler
             if (!myItem)
             {
                 DragHandler.myItemBegingDragged.transform.SetParent(transform);
+                if (this.tag == "Cuttingboard")
+                {
+                    if (DragHandler.myItemBegingDragged.tag == "GreenOnion")
+                    {
+                        var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                        temp.SetTrigger("RunChop");
+                        PlayCuttingAudio();
+
+                    }
+                    else if (DragHandler.myItemBegingDragged.tag == "Lemon")
+                    {
+                        var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                        temp.SetTrigger("RunChop");
+                        PlayCuttingAudio();
+
+                    }
+                }
+
+                if (this.tag == "FryingpanOne")
+                {
+                    if (DragHandler.myItemBegingDragged.tag == "Egg")
+                    {
+                        PlayFryingAudio();
+
+                        var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                        temp.SetTrigger("CookEgg");
+                    }
+                    if (DragHandler.myItemBegingDragged.tag == "Pork")
+                    {
+                        PlayFryingAudio();
+                        var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                        temp.SetTrigger("CookPork");
+                    }
+                    if (DragHandler.myItemBegingDragged.tag == "Shrimp")
+                    {
+                        PlayFryingAudio();
+
+                        var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                        temp.SetTrigger("CookShrimpOne");
+                    }
+                }
+                //
+                if (this.tag == "FryingpanTwo")
+                {
+                    if (DragHandler.myItemBegingDragged.tag == "Egg")
+                    {
+                        PlayFryingAudio();
+
+                        var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                        temp.SetTrigger("CookEggTwo");
+                    }
+                    if (DragHandler.myItemBegingDragged.tag == "Pork")
+                    {
+                        PlayFryingAudio();
+
+                        var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                        temp.SetTrigger("CookPorkTwo");
+                    }
+                    if (DragHandler.myItemBegingDragged.tag == "Shrimp")
+                    {
+                        PlayFryingAudio();
+
+                        var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                        temp.SetTrigger("CookShrimpTwo");
+                    }
+                }
+
+                if (this.tag == "PotOne")
+                {
+                    if (DragHandler.myItemBegingDragged.tag == "Rice")
+                    {
+                        PlayBoilingAudio();
+
+                        var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                        temp.SetTrigger("CookRice");
+                    }
+                    else if (DragHandler.myItemBegingDragged.tag == "Clams")
+                    {
+                        PlayBoilingAudio();
+
+                        var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                        temp.SetTrigger("CookClam");
+                    }
+                }
+                if (this.tag == "PotTwo")
+                {
+                    if (DragHandler.myItemBegingDragged.tag == "Rice")
+                    {
+                        PlayBoilingAudio();
+
+                        var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                        temp.SetTrigger("CookRiceTwo");
+                    }
+                    else if (DragHandler.myItemBegingDragged.tag == "Clams")
+                    {
+                        PlayBoilingAudio();
+
+                        var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
+                        temp.SetTrigger("CookClamTwo");
+                    }
+                }
             }
         }
         else if (myWantedItemTag == "")
@@ -153,107 +254,7 @@ public class Slots : MonoBehaviour, IDropHandler
             }
         }
 
-        if (this.tag == "Cuttingboard")
-        {
-            if (DragHandler.myItemBegingDragged.tag == "GreenOnion")
-            {
-                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                temp.SetTrigger("RunChop");
-                PlayCuttingAudio();
-
-            }
-            else if (DragHandler.myItemBegingDragged.tag == "Lemon")
-            {
-                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                temp.SetTrigger("RunChop");
-                PlayCuttingAudio();
-
-            }
-        }
-
-        if (this.tag == "FryingpanOne")
-        {
-            if (DragHandler.myItemBegingDragged.tag == "Egg")
-            {
-                PlayFryingAudio();
-
-                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                temp.SetTrigger("CookEgg");
-            }
-            if (DragHandler.myItemBegingDragged.tag == "Pork")
-            {
-                PlayFryingAudio();
-                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                temp.SetTrigger("CookPork");
-            }
-            if (DragHandler.myItemBegingDragged.tag == "Shrimp")
-            {
-                PlayFryingAudio();
-
-                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                temp.SetTrigger("CookShrimpOne");
-            }
-        }
-        //
-        if (this.tag == "FryingpanTwo")
-        {
-            if (DragHandler.myItemBegingDragged.tag == "Egg")
-            {
-                PlayFryingAudio();
-
-                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                temp.SetTrigger("CookEggTwo");
-            }
-            if (DragHandler.myItemBegingDragged.tag == "Pork")
-            {
-                PlayFryingAudio();
-
-                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                temp.SetTrigger("CookPorkTwo");
-            }
-            if (DragHandler.myItemBegingDragged.tag == "Shrimp")
-            {
-                PlayFryingAudio();
-
-                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                temp.SetTrigger("CookShrimpTwo");
-            }
-        }
-
-        if (this.tag == "PotOne")
-        {
-            if (DragHandler.myItemBegingDragged.tag == "Rice")
-            {
-                PlayBoilingAudio();
-
-                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                temp.SetTrigger("CookRice");
-            }
-            else if (DragHandler.myItemBegingDragged.tag == "Clams")
-            {
-                PlayBoilingAudio();
-
-                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                temp.SetTrigger("CookClam");
-            }
-        }
-        if (this.tag == "PotTwo")
-        {
-            if (DragHandler.myItemBegingDragged.tag == "Rice")
-            {
-                PlayBoilingAudio();
-
-                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                temp.SetTrigger("CookRiceTwo");
-            }
-            else if (DragHandler.myItemBegingDragged.tag == "Clams")
-            {
-                PlayBoilingAudio();
-
-                var temp = DragHandler.myItemBegingDragged.GetComponent<Animator>();
-                temp.SetTrigger("CookClamTwo");
-            }
-        }
+       
 
 
         if (tag == "Trash")
