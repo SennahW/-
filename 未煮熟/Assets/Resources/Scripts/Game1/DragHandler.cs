@@ -1,15 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 { 
     public static GameObject myItemBegingDragged;
     Vector3 myStartPosition;
     Transform myStartParent;
-    float myBurntCounter;
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -33,7 +29,6 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             transform.position = myStartPosition;
         }
     }
-
 
     public void SpawnOnion()
     {
@@ -60,20 +55,6 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         GameObject.FindGameObjectWithTag("FryingpanTwo").GetComponent<Slots>().SpawnCookedEgg();
         Destroy(this.gameObject);
     }
-
-    //public void SpawnCookekPorkOne()
-    //{
-    //    Debug.Log("Spawn1");
-    //    GameObject.FindGameObjectWithTag("FryingpanOne").GetComponent<Slots>().SpawnCookedPork();
-    //    Destroy(this.gameObject);
-    //}
-
-    //public void SpawnCookekPorkTwo()
-    //{
-    //    Debug.Log("Spawn1");
-    //    GameObject.FindGameObjectWithTag("FryingpanOne").GetComponent<Slots>().SpawnCookedPork();
-    //    Destroy(this.gameObject);
-    //}
 
     public void SpawnCookedRiceOne()
     {
